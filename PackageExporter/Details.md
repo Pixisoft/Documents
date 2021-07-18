@@ -24,7 +24,7 @@ allows you to export multiple packages with different contents.
 to use it in production builds.*
 
 If you have any issue please contact us through [GitHub](https://github.com/Pixisoft)
-or email to [pixisoft.tw@gmail.com](emailto:pixisoft.tw@gmail.com).
+or email to pixisoft.tw@gmail.com.
 
 ### :pencil: Description
 
