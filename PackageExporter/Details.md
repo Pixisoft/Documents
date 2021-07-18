@@ -12,6 +12,17 @@ more information.
 This package is a packaging (exporting) tool for Unity package system. It
 allows you to export multiple packages with different contents.
 
+#### Features:
+
+- Export multiple packages in a project
+- Export method similar to .gitignore (easy for coder)
+- Lightweight, no other dependencies
+- Clean, no files are generated
+- Highly compatible to any Unity version
+
+Notice this package will only work in Editor, and does not expect user to
+use it in production builds.
+
 ### :pencil: Description
 
 This is often use when you have multiple target to export but it's hard to
