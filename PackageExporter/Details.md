@@ -20,8 +20,11 @@ allows you to export multiple packages with different contents.
 - Clean, no files are generated
 - Highly compatible to any Unity version
 
-Notice this package will only work in Editor, and does not expect user to
-use it in production builds.
+*P.S. Notice this package will only work in Editor, and does not expect user
+to use it in production builds.*
+
+If you have any issue please contact us through [GitHub](https://github.com/Pixisoft)
+or email to pixisoft.tw@gmail.com.
 
 ### :pencil: Description
 
