@@ -40,6 +40,9 @@ have changed!
 The source can be compiled in .NET 2.0 or above, hence all .NET version should
 work well with this plugin.
 
+This tool has been tested on Unity version 2019, but we would recommended you
+use this package in Unity version 2021.
+
 Notice the tool is open source; so you can find the full source code on GitHub,
 the link https://github.com/Pixisoft/sHierarchy. Feel free to open issues if
 you have question about the tool, or even better if you like to contribute
