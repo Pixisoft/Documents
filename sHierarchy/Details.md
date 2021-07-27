@@ -20,6 +20,7 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 * **Clean**, no other resource files
 * **Work in Prefab Mode**
 * **Looks nice**, design matches to defualt Unity's light/dark theme
+* **Open Source**, anyone can help us improve!
 
 #### Features
 
