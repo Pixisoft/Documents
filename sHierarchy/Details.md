@@ -8,19 +8,24 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 
 ### :pencil: Summary (10-200 characters)
 
-**sHierarchy** aims to help developer
+**sHierarchy** is a minimalistic hierarchy
 
 ### :pencil: Description
 
-TODO: ..
+Principles
+
+* **Plug 'n' play**, it works out of the box
+* **Lightweight**, no other dependencies
+* **Does not pollute (project)**, no files are generated
+* **Clean**, no other resource files
+* **No redundant workflow**
+* **Work in Prefab Mode**
+* **Looks nice**, design matches to defualt Unity's light/dark theme
+
+Features
 
 * Show enable/disable state of each components
 * Show log/warning/error icon
-* Clean, no files are generated
-* Clean, no other resource files
-* Lightweight, no other dependencies
-* No redundant workflow
-* Work in Prefab Mode
 
 *P.S. Notice this package will only work in Editor, and does not expect user
 to use it in production builds.*
