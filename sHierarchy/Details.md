@@ -8,11 +8,11 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 
 ### :pencil: Summary (10-200 characters)
 
-N/A
+**sHierarchy** aims to help developer
 
 ### :pencil: Description
 
-**sHierarchy** aims to help developer
+TODO: ..
 
 * Show enable/disable state of each components
 * Show log/warning/error icon
@@ -32,4 +32,6 @@ or email to pixisoft.tw@gmail.com.
 
 ### :pencil: Technical details
 
-N/A
+This plugin is base on top of [Custom Hierarchy for Unity](https://github.com/febucci/unitypackage-custom-hierarchy)
+made by author [Federico](https://github.com/febucci). Thankfully, Federico has
+granted us the permission to sell it by our own use.
