@@ -40,4 +40,7 @@ have changed!
 The source can be compiled in .NET 2.0 or above, hence all .NET version should
 work well with this plugin.
 
-Notice that you can find the full source code on GitHub, the link https://github.com/Pixisoft/sHierarchy.
+Notice the tool is open source; so you can find the full source code on GitHub,
+the link https://github.com/Pixisoft/sHierarchy. Feel free to open issues if
+you have question about the tool, or even better if you like to contribute
+to the package by opening pull requests!
