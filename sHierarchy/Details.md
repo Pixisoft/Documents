@@ -37,6 +37,7 @@ daily tasks.
 * Display enable/disable state of each GameObject/Components
 * Display log/warning/error icon (behind the name of GameObject)
 * Displaying tag and layer of a GameObject
+* Displaying instance ID of a GameObject
 * Any feature can be disabled
 * Work in play mode
 * Work in prefab isolation mode
