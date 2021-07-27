@@ -18,7 +18,6 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 * **Lightweight**, no other dependencies
 * **Does not pollute (project)**, no files are generated
 * **Clean**, no other resource files
-* **No redundant workflow**
 * **Work in Prefab Mode**
 * **Looks nice**, design matches to defualt Unity's light/dark theme
 
