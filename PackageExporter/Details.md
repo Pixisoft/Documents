@@ -12,6 +12,12 @@ more information.
 This package is a packaging (exporting) tool for Unity package system. It
 allows you to export multiple packages with different contents.
 
+### :pencil: Description
+
+This is often use when you have multiple target to export but it's hard to
+memorize all contents to export for each packages. This tool resolve these
+issues, and provides a method similar to Git (Source Control) ignore system.
+
 #### Features:
 
 - Export multiple packages in a project
@@ -25,12 +31,6 @@ to use it in production builds.*
 
 If you have any issue please contact us through [GitHub](https://github.com/Pixisoft)
 or email to pixisoft.tw@gmail.com.
-
-### :pencil: Description
-
-This is often use when you have multiple target to export but it's hard to
-memorize all contents to export for each packages. This tool resolve these
-issues, and provides a method similar to Git (Source Control) ignore system.
 
 [More Info>>](https://github.com/Pixisoft/PackageExporter)
 
