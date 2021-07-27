@@ -33,5 +33,11 @@ or email to pixisoft.tw@gmail.com.
 ### :pencil: Technical details
 
 This plugin is base on top of [Custom Hierarchy for Unity](https://github.com/febucci/unitypackage-custom-hierarchy)
-made by author [Federico](https://github.com/febucci). Thankfully, Federico has
-granted us the permission to sell it by our own use.
+made by author [Federico](https://github.com/febucci). Thankfully, Federico
+has granted us the permission to sell on to market, due to the changes we
+have changed!
+
+The source can be compiled in .NET 2.0 or above, hence all .NET version should
+work well with this plugin.
+
+Notice that you can find the full source code on GitHub, the link https://github.com/Pixisoft/sHierarchy.
