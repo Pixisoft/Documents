@@ -8,8 +8,8 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 
 ### :pencil: Summary (10-200 characters)
 
-TODO: ..
-**sHierarchy** is a minimalistic hierarchy without over exaggerate the tool.
+**sHierarchy** aims to be robust but keep both stability and compatiblity
+high to developers.
 
 ### :pencil: Description
 
