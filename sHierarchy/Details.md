@@ -12,7 +12,7 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 
 ### :pencil: Description
 
-Principles
+#### Principles
 
 * **Plug 'n' play**, it works out of the box
 * **Lightweight**, no other dependencies
@@ -22,7 +22,7 @@ Principles
 * **Work in Prefab Mode**
 * **Looks nice**, design matches to defualt Unity's light/dark theme
 
-Features
+#### Features
 
 * Show enable/disable state of each components
 * Show log/warning/error icon
