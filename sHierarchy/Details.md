@@ -8,7 +8,8 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 
 ### :pencil: Summary (10-200 characters)
 
-**sHierarchy** is a minimalistic hierarchy
+TODO: ..
+**sHierarchy** is a minimalistic hierarchy without over exaggerate the tool.
 
 ### :pencil: Description
 
@@ -16,14 +17,17 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 With that being said, user should find familiars without forcing themselves
 learning a new tool.
 
+We choose to design a minimalistic hierarchy without over exaggerate the tool
+itself. Yet the tool should be powerful enough for developers to use for their
+daily tasks. 
+
 #### Principles
 
 * **Plug 'n' play**, it works out of the box
 * **Lightweight**, no other dependencies
 * **Does not pollute (project)**, no files are generated
 * **Clean**, no other resource files
-* **Work in Prefab Mode**
-* **Looks nice**, design matches to defualt Unity's light/dark theme
+* **Stable and compatible**, no hacky code
 * **Open Source**, anyone can help us improve!
 
 #### Features
@@ -32,6 +36,7 @@ learning a new tool.
 * Display icon for each GameObject and Components
 * Show enable/disable state of each components
 * Show log/warning/error icon
+* Compatible to prefab isolation mode
 
 *P.S. Notice this package will only work in Editor, and does not expect user
 to use it in production builds.*
