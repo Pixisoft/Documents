@@ -2,7 +2,7 @@
 
 ### :pencil: Additional compatibility information
 
-N/A
+Any version above 5.6+ sould work. Please see Technical details section for more information.
 
 ## Description
 
