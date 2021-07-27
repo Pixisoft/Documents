@@ -38,5 +38,5 @@ or email to pixisoft.tw@gmail.com.
 
 The package uses Unity Packaging API and since Unity has established the
 packaging system in very early version, it will work on most of the Unity
-version. Thus, I will recommend you work use this package at least in
+version. Thus, I will recommend you work use this package wit minimum
 version 5.6 or above.
