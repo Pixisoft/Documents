@@ -12,6 +12,10 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 
 ### :pencil: Description
 
+**sHierarchy** is meant to design that matches the Unity default settings.
+With that being said, user should find familiars without forcing themselves
+learning a new tool.
+
 #### Principles
 
 * **Plug 'n' play**, it works out of the box
@@ -24,6 +28,8 @@ Any version above 2019.1+ sould work. Please see Technical details section for m
 
 #### Features
 
+* Control all over **Edit** -> **Preferences** -> **sHierarchy** panel
+* Display icon for each GameObject and Components
 * Show enable/disable state of each components
 * Show log/warning/error icon
 
