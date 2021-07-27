@@ -34,9 +34,12 @@ daily tasks.
 
 * Control all over **Edit** -> **Preferences** -> **sHierarchy** panel
 * Display icon for each GameObject and Components
-* Show enable/disable state of each components
-* Show log/warning/error icon
-* Compatible to prefab isolation mode
+* Display enable/disable state of each GameObject/Components
+* Display log/warning/error icon (behind the name of GameObject)
+* Displaying tag and layer of a GameObject
+* Any feature can be disabled
+* Work in play mode
+* Work in prefab isolation mode
 
 *P.S. Notice this package will only work in Editor, and does not expect user
 to use it in production builds.*
