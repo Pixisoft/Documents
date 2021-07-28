@@ -9,8 +9,8 @@ more information.
 
 ### :pencil: Summary (10-200 characters)
 
-This package is a packaging (exporting) tool for Unity package system. It
-allows you to export multiple packages with different contents.
+**Package Exporter** is a packaging (exporting) tool for Unity package system.
+It allows you to export multiple packages with different contents.
 
 ### :pencil: Description
 
