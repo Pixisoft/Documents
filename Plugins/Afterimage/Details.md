@@ -19,7 +19,7 @@ easy to learn and easy to maintain.
 
 * **Plug 'n' play**, it works out of the box
 * **Compatible with all devices**, including mobile
-* **Highly customizable**, with script
+* **Extensible**, with script
 
 **Source code included**
 
