@@ -1,4 +1,4 @@
-#### 1. Why would the user want to buy your plugins?
+#### 1. Why buyging it?
 
 * What it sovles?
 * What benefits do user get?
