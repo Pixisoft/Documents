@@ -29,4 +29,9 @@ or email to pixisoft.tw@gmail.com.
 
 ### :pencil: Technical details
 
-N/A
+The source can be compiled in .NET 2.0 or above, hence all .NET version should
+work well with this plugin.
+
+This tool has been tested on Unity version 2019, but we encourge you use this
+package in Unity version 2021. We would continue support the latest version of
+Unity Engine.
