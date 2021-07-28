@@ -15,7 +15,7 @@ including UI components (Image, Text, Button, etc).
 ### :pencil: Description
 
 The tool is design to be **simple** and **stable**, hence it should be
-easy to learn and easy to maintain.
+easy to learn and easy to maintain (for programmers).
 
 * **Plug 'n' play**, it works out of the box
 * **Compatible with all devices**, including mobile
