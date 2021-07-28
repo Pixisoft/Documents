@@ -12,7 +12,7 @@ N/A
 
 ### :pencil: Description
 
-* One step to add a component to the scene.
+* **Plug 'n' play**, it works out of the box
 * Fully compatible with Unity system.
 * Provide auto and manual update of trail.
 * Support fade out for 2D/3D gameobject.
