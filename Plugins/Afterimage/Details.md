@@ -20,8 +20,14 @@ easy to learn and easy to maintain.
 * **Plug 'n' play**, it works out of the box
 * **Compatible with all devices**, including mobile
 * **Extensible**, with script
+* **Source code included**
 
-**Source code included**
+**IMPORTANT:** This package only contains one effect (fade out), therefore if
+you want to apply other effect then it will require you with at least some
+programming experience!
+
+If you have any issue please contact us through [GitHub](https://github.com/Pixisoft)
+or email to pixisoft.tw@gmail.com.
 
 ### :pencil: Technical details
 
