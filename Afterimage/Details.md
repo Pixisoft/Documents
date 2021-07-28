@@ -2,7 +2,7 @@
 
 ### :pencil: Additional compatibility information
 
-N/A
+Any version above 2019.1+ sould work. Please see Technical details section for more information.
 
 ## Description
 
@@ -12,7 +12,15 @@ N/A
 
 ### :pencil: Description
 
-N/A
+* One step to add a component to the scene.
+* Fully compatible with Unity system.
+* Provide auto and manual update of trail.
+* Support fade out for 2D/3D gameobject.
+* Fully accessible to source code.
+* Compatible with all devices, including mobile.
+* Work with UI/Canvas.
+* Lightweight and easy to use.
+* Highly customizable with script.
 
 ### :pencil: Technical details
 
