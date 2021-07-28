@@ -9,19 +9,16 @@ for more information.
 
 ### :pencil: Summary (10-200 characters)
 
-**Afterimage** is a simple solution that work with 2D and 3D renderers.
+**Afterimage** is a simple solution that work with 2D and 3D renderers,
+including UI components (Image, Text, Button, etc).
 
 ### :pencil: Description
 
+The tool is design to be **simple** and **stable**, hence the
+
 * **Plug 'n' play**, it works out of the box
-* Fully compatible with Unity system.
-* Provide auto and manual update of trail.
-* Support fade out for 2D/3D gameobject.
-* Fully accessible to source code.
-* Compatible with all devices, including mobile.
-* Work with UI/Canvas.
-* Lightweight and easy to use.
-* Highly customizable with script.
+* **Compatible with all devices**, including mobile
+* **Highly customizable**, with script
 
 **Source code included**
 
