@@ -21,7 +21,8 @@ Any version above 5.6+ sould work. Please see Technical details section for more
 *P.S. Notice this package will only work in Editor, and does not expect user
 to use it in production builds.*
 
-*P.S. This package is closed source, yet we accept *
+*P.S. Source code is **NOT** included, please contact us or leave a review so
+we can invite you to access the source code*
 
 If you have any issue please contact us through [GitHub](https://github.com/Pixisoft)
 or email to pixisoft.tw@gmail.com.
