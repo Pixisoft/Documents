@@ -25,4 +25,7 @@ easy to learn and easy to maintain.
 
 ### :pencil: Technical details
 
-N/A
+This package can use in any .NET version since it only uses basic .NET API.
+
+You can use this tool with above Unity version 5.6+, yet we would always
+recommend you use the latest version of Unity.
