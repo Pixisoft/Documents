@@ -2,13 +2,14 @@
 
 ### :pencil: Additional compatibility information
 
-Any version above 2019.1+ sould work. Please see Technical details section for more information.
+Any Unity version above 5.6+ sould work. Please see Technical details section
+for more information.
 
 ## Description
 
 ### :pencil: Summary (10-200 characters)
 
-N/A
+**Afterimage** is a simple solution that work with 2D and 3D renderers.
 
 ### :pencil: Description
 
@@ -21,6 +22,8 @@ N/A
 * Work with UI/Canvas.
 * Lightweight and easy to use.
 * Highly customizable with script.
+
+**Source code included**
 
 ### :pencil: Technical details
 
