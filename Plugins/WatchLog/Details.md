@@ -8,9 +8,16 @@ Any version above 5.6+ sould work. Please see Technical details section for more
 
 ### :pencil: Summary (10-200 characters)
 
-**Watch Log** is variable tracker, it helps you track component over time.
+**Watch Log** is variable tracker, it helps you track components over time.
 
 ### :pencil: Description
+
+This tool allows you to watch multiple components over time without lockdown
+your inspector window.
+
+It's annoying when your game is unorganized due to multiple complex programming
+logic running simultaneously; this supports you to debug and break down complex
+game logic by tracking each GameObject's component down individually.
 
 #### Features
 
