@@ -9,7 +9,7 @@ more information.
 
 ### :pencil: Summary (10-200 characters)
 
-N/A
+A dedicated and up to date INI editor inside the Inspector window.
 
 ### :pencil: Description
 
