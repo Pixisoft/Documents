@@ -14,9 +14,20 @@ the user would not have to know too much details about the system itself.
 
 ### :pencil: Description
 
+#### Principles
+
+* **Plug 'n' play**, it works out of the box
+* **Lightweight**, no other dependencies
+* **Does not pollute (project)**, no files are generated
+* **Clean**, no other resource files
+* **Stable and compatible**, no hacky code
+
 #### Features
 
-* Out of box
+* Control all over **Edit** -> **Preferences** -> **NovBundle** panel
+* Bundle creation for specific platforms
+* Server ready for you to test your Asset bundles!
+* Programming ready for you to program custom Asset Bundle related functionality!
 
 *P.S. Source code is **NOT** included, please contact us or leave a review so
 we can invite you to access the source code*
