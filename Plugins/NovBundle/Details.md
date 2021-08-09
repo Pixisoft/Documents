@@ -14,7 +14,12 @@ to know too much details about the system itself.
 
 ### :pencil: Description
 
+Stop reinventing the wheel for Asset Bundles system. Use the simple programming
+interface that provided by this library for recreating any functions you need
+from the Asset Bundles system.
 
+You would need at least some scripting experiences in order to download and use
+Asset Bundles you have uploaded to your own server!
 
 #### Principles
 
