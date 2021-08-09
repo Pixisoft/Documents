@@ -8,9 +8,9 @@ Any version above 5.6+ sould work. Please see Technical details section for more
 
 ### :pencil: Summary (10-200 characters)
 
-**NovBundle** is a abstraction layer built on top of Asset Bundles system.
-This plugin focuses on simplifying the Asset Bundles workflow so the user
-would not have to know too much details about the system itself.
+**NovBundle** is a abstraction layer built on top of Asset Bundles system; it
+focuses on simplifying the Asset Bundles workflow so the user would not have
+to know too much details about the system itself.
 
 ### :pencil: Description
 
