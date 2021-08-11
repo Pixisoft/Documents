@@ -16,7 +16,7 @@ A dedicated and up to date INI editor inside the Inspector window.
 **Inspect_Ini** provides a graphical user interface inside Unity, therefore
 you can edit .ini files directly.
 
-#### Features
+#### Featuresc
 
 * Out of box
 * Lightweight and easy to use
