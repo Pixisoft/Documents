@@ -29,7 +29,7 @@ daily tasks.
 * **Clean**, no other resource files
 * **Stable and compatible**, no hacky code
 * **Open Source**, anyone can help us improve!
-x
+
 #### Features
 
 * Control all over **Edit** -> **Preferences** -> **sHierarchy** panel
