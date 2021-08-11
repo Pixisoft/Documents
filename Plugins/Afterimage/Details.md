@@ -19,7 +19,7 @@ easy to learn and easy to maintain (for programmers).
 
 * **Plug 'n' play**, it works out of the box
 * **Compatible with all devices**, including mobile
-* **Extensible**, with script
+* **Extensible**, with scriptc
 * **Source code included**
 
 **IMPORTANT:** This package only contains one effect (fade out), therefore if
