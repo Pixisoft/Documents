@@ -35,6 +35,7 @@ Asset Bundles you have uploaded to your own server!
 * Bundle creation for specific platforms
 * Server ready for you to test your Asset bundles!
 * Programming ready for you to program custom Asset Bundle related functionality!
+* Allow loading same bundle with multiple entries, see bug report [here](https://forum.unity.com/threads/loading-assetbundles-with-the-same-name.573082/)
 
 *P.S. Source code is **NOT** included, please contact us or leave a review so
 we can invite you to access the source code*
