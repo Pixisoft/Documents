@@ -61,5 +61,9 @@ td, th {
 
 code, .rst-content tt, .rst-content code {
   background: #3C4149;
-  border: solid 1px #3C4149;
+  border: unset;
+}
+
+.rst-content pre.literal-block, .rst-content div[class^='highlight'] {
+  border: unset;
 }
