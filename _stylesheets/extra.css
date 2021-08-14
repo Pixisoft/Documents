@@ -1,3 +1,14 @@
+body {
+  color: #ADBAC7;
+}
+.wy-body-for-nav {
+  background: #22272E;
+}
+
+.wy-nav-content {
+  background: #22272E;
+}
+
 .wy-side-nav-search {
   background-color: #212529;
 }
