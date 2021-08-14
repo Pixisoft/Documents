@@ -9,4 +9,11 @@
 
 ## Introduction
 
-N/A
+Document is built by [MkDocs](https://github.com/mkdocs/mkdocs/) with theme
+[cjsheets/mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown).
+
+## License
+
+Copyright (c) Pixisoft. All rights reserved.
+
+pixisoft.tw@gmail.com
