@@ -21,7 +21,7 @@ extra_css:
   - stylesheets/extra.css
 
 theme:
-  name: bootstrap
+  name: 'rtd-dropdown'
   logo: etc/logo.png
   favicon: etc/favicon.ico
   icon:
