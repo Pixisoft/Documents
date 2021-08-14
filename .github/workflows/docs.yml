@@ -14,10 +14,12 @@ jobs:
 
       - name: MkDocs
         run: |
-          cp -rf README.md img docs
-
           docker login docker.pkg.github.com --username $GITHUB_ACTOR --password ${{ secrets.GITHUB_TOKEN }}
           docker run --rm -v ${PWD}:/docs docker.pkg.github.com/pixisoft/docs-image/docs-image -- build
+
+      - name: Overwrite files
+        run: |
+          cp -rf README.md img docs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
