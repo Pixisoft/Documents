@@ -1,0 +1,49 @@
+site_name: docstr - A document string minor mode
+site_description: Document String tool for Emacs
+site_url: https://pixisoft.github.io/
+site_author: pixisoft.tw@gmail.com
+
+nav:
+  - Home:
+    - Overview: README.md
+  - UnityAS:
+    - NovBundle: UnityAS/NovBundle/README.md
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: rtd-dropdown
+  logo: etc/logo.png
+  favicon: etc/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/Pixisoft
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/pixisoft
+
+markdown_extensions:
+  - pymdownx.superfences
+  - codehilite
+  - meta
+  - toc:
+      permalink: '#'
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized
+  - rss
+
+google_analytics:
+  - UA-165661257-1
+  - auto
