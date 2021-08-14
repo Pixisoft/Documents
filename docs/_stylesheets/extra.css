@@ -51,15 +51,6 @@ td, th {
   background-color: #22272E;
 }
 
-
-.toctree-l4 {
-  color: #CAD2DA;
-}
-
-.toctree-l5 {
-  color: #CAD2DA;
-}
-
-.toctree-l6 {
+.wy-menu-vertical ul.tocbase li a {
   color: #CAD2DA;
 }
