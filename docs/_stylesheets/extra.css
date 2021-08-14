@@ -36,5 +36,5 @@ td, th {
 }
 
 .wy-menu-vertical .navtree li.toctree-l2.current > a, .wy-menu-vertical .navtree li.toctree-l2.current > span {
-  color: #ADBAC7;
+  color: #ADBAC7 !important;
 }
