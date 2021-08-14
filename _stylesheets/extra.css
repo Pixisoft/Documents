@@ -29,3 +29,11 @@ td, th {
 .wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
   background-color: #22272E;
 }
+
+.wy-menu-vertical ul.navtree.subnav-l1 ul.subnav-l2, .wy-menu-vertical ul.navtree.subnav-l1 li.toctree-l2.current li.toctree-l3 > a {
+  background-color: #22272E;
+}
+
+.wy-menu-vertical .navtree li.toctree-l2.current > a, .wy-menu-vertical .navtree li.toctree-l2.current > span {
+  color: #ADBAC7;
+}
