@@ -2,7 +2,7 @@ site_name: '![Logo](./etc/logo.png) Pixisoft Documentation'
 site_description: Document String tool for Emacs
 site_url: https://pixisoft.github.io/
 site_author: pixisoft.tw@gmail.com
-x
+
 nav:
   - Home:
     - Overview: README.md
