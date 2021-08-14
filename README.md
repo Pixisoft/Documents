@@ -2,10 +2,6 @@
 [![Unity Engine](https://img.shields.io/badge/unity-publisher.portal-black.svg?style=flat&logo=unity&cacheSeconds=2592000)](https://publisher.unity.com/packages)
 [![Publisher](https://img.shields.io/badge/unity-publisher.profile-black.svg?style=flat&logo=unity)](https://assetstore.unity.com/publishers/54455)
 
-<p align="center">
-  <img src="./img/logo.png" />
-</p>
-
 # Documents
 
 [![Docs](https://github.com/Pixisoft/Documents/actions/workflows/docs.yml/badge.svg)](https://github.com/Pixisoft/Documents/actions/workflows/docs.yml)
