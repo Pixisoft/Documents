@@ -38,3 +38,7 @@ td, th {
 .wy-menu-vertical .navtree li.toctree-l2.current > a, .wy-menu-vertical .navtree li.toctree-l2.current > span {
   color: #ADBAC7 !important;
 }
+
+.wy-menu-vertical ul.navtree.subnav-l1 li.toctree-l2.current li.toctree-l3.current > a, .wy-menu-vertical ul.navtree.subnav-l1 li.toctree-l3.current li.toctree-l4 > a {
+  background-color: #22272E;
+}
