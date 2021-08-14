@@ -49,9 +49,9 @@ directory.
 Once the `.unityignore` file is generated, the according package 
 export button should appear.
 
-### 🎉 Done, and Enjoy! :partying_face:
+### 🎉 Done, and Enjoy! 🥳
 
-Now you can manage as many packages you want to export! :tada:
+Now you can manage as many packages you want to export! 🎉
 
 ## `.unityignore` File Example
 
