@@ -123,7 +123,7 @@ For exampl,e `http://www.yourwebsite.com/example/scenes.assetbundle`
 
 For exampl,e `file://C:/example/scenes.assetbundle`
 
-## :link: References
+## 🔗 References
 
 * [ARFoundation Unity Tutorial: Asset Bundles (Download 3D Models At Runtime)](https://www.youtube.com/watch?v=twzfpuaM-Js&ab_channel=ThirdAurora)
 * [在 Unity 使用 AssetBundles 實作簡易的遊戲資源打包以及更新機制](https://dev.twsiyuan.com/2017/04/unity-assetbundles.html)

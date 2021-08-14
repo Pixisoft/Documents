@@ -12,7 +12,7 @@ allows you to export multiple packages with different contents.
 *P.S. Notice this package will only work in Editor, and does not expect user
 to use it in production builds.*
 
-## :trophy: Features
+## Features
 
 * Export multiple packages in a project
 * Export method similar to `.gitignore` (easy for coder)
@@ -20,31 +20,31 @@ to use it in production builds.*
 * Clean, no files are generated
 * Highly compatible to any Unity version
 
-## :hammer: How to use?
+## How to use?
 
 Here explains how you use this package correctly.
 
-### :mag: Step 1. Import Package
+### Step 1. Import Package
 
 You will need to import the package to your project. The package 
 can be download from [here](https://github.com/Pixisoft/PackageExporter/releases).
 
-### :mag: Step 2. Start using Package Exporter Window
+### Step 2. Start using Package Exporter Window
 
 You can start the `PackageExporter` window from the menu bar `PackageExporter`.
 
-### :mag: Step 3. Fill package info and generate `.unityignore` file
+### Step 3. Fill package info and generate `.unityignore` file
 
 <img src="./etc/package-info.png"/>
 
 After you fill the info, then hit `Generate Unity Ignore` button.
 
-### :mag: Step 4. Edit `.unityignore` file
+### Step 4. Edit `.unityignore` file
 
 All the `.unityignore` files can be found under `PackageExporter/unityignore`
 directory. 
 
-### :mag: Step 5. Export...
+### Step 5. Export...
 
 Once the `.unityignore` file is generated, the according package 
 export button should appear.
@@ -76,7 +76,7 @@ ProjectExporter
 
 ```
 
-## :rocket: Exporting
+## Exporting
 
 Export the package `Hello World`.
 
@@ -88,15 +88,15 @@ Export the package `Hello World`.
 
 - [ ] Support ingore extension syntax. (*.meta)
 
-## :question: FAQ
+## FAQ
 
-#### :dizzy: Why should I use this package?
+#### Why should I use this package?
 
 This is often use when you have multiple target to export but it's hard to
 memorize all contents to export for each packages. This tool resolve these
 issues, and provides a method similar to Git (Source Control) ignore system.
 
-#### :dizzy: Should I commit .unityignore files to source control?
+#### Should I commit .unityignore files to source control?
 
 If you wish to share package export settings then yes, you should include
 `.unityignore` files to repository. Other than that, the answer would be no.

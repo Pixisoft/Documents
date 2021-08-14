@@ -8,7 +8,7 @@ A dedicated and up to date INI editor inside the Inspector window.
 
 *P.S. This package requires [ini-parser](https://github.com/rickyah/ini-parser) to run, yet we have included for you!*
 
-## :trophy: Features
+## Features
 
 * Out of box
 * Lightweight and easy to use

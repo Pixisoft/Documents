@@ -5,7 +5,7 @@
 |:-----------------------------------|:-----------------------------------|:-----------------------------------|
 | <img src="./etc/showcase_1.png" /> | <img src="./etc/showcase_2.png" /> | <img src="./etc/showcase_3.png" /> |
 
-## :trophy: Features
+## Features
 
 * One step to add a component to the scene
 * Fully compatible with Unity system

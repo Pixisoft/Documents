@@ -6,7 +6,7 @@ A dedicated tool that tracks variable over time.
   <img src="./etc/demo.png"/>
 </p>
 
-## :trophy: Features
+## Features
 
 * Out of box
 * Lightweight and easy to use
