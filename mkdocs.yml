@@ -5,8 +5,7 @@ site_favicon: etc/favicon.ico
 
 repo_name: https://pixisoft.github.io/
 
-copyright: '© 2021 Pixisoft Inc. All rights reserved. 
-All trademarks referenced herein are the properties of their respective owners.'
+copyright: © 2021 Pixisoft Inc. All rights reserved. 
 
 nav:
   - Home:
