@@ -21,6 +21,10 @@ td, th {
   color: #ADBAC7;
 }
 
+.wy-menu-vertical .navtree li.toctree-l2.current, .wy-menu-vertical .navtree li.toctree-l2.current > a {
+  background-color: #212529;
+}
+
 .admonition code {
   background-color: #22272E;
 }
