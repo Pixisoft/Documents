@@ -54,3 +54,12 @@ td, th {
 .wy-menu-vertical ul.tocbase li a {
   color: #CAD2DA;
 }
+
+.rst-content tt, .rst-content tt, .rst-content code {
+  color: #ADBAC7;
+}
+
+code, .rst-content tt, .rst-content code {
+  background: #3C4149;
+  border: solid 1px #3C4149;
+}
