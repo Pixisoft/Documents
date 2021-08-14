@@ -43,6 +43,10 @@ td, th {
   background-color: #22272E;
 }
 
+.wy-menu-vertical ul.tocbase li.current.with-children > a {
+  color: #CAD2DA;
+}
+
 .wy-menu-vertical ul.tocbase li.toctree-l3.current li.toctree-l4.current > a, .wy-menu-vertical li.toctree-l4.current li.toctree-l5 > a {
   background-color: #22272E;
 }
