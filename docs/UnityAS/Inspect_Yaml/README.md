@@ -6,7 +6,7 @@ A dedicated and up to date YAML editor inside the Inspector window.
 |:-------------------------------|:-------------------------------|
 | <img src="./etc/demo_1.png" /> | <img src="./etc/demo_2.png" /> |
 
-## :trophy: Features
+## 🏆 Features
 
 * Out of box
 * Lightweight and easy to use

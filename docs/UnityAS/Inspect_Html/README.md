@@ -6,7 +6,7 @@ Render and edit HTML inside the Inspector window.
 |:-------------------------------|:-------------------------------|
 | <img src="./etc/demo_1.png" /> | <img src="./etc/demo_2.png" /> |
 
-## Features
+## 🏆 Features
 
 * Out of box
 * Lightweight and easy to use

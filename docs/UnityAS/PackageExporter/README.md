@@ -12,7 +12,7 @@ allows you to export multiple packages with different contents.
 *P.S. Notice this package will only work in Editor, and does not expect user
 to use it in production builds.*
 
-## Features
+## 🏆 Features
 
 * Export multiple packages in a project
 * Export method similar to `.gitignore` (easy for coder)
