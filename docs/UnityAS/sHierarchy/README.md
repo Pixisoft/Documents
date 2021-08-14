@@ -5,7 +5,7 @@
   <img src="./etc/showcase.png" />
 </p>
 
-## Features
+## 🏆 Features
 
 * Show enable/disable state of each components
 * Show log/warning/error icon
