@@ -3,7 +3,8 @@ site_description: Docuemtations for Pixisoft
 site_author: pixisoft.tw@gmail.com
 site_favicon: etc/favicon.ico
 
-repo_name: https://pixisoft.github.io/
+repo_name: GitHub
+repo_url: https://pixisoft.github.io/
 
 copyright: (c) 2021 Pixisoft Inc. All rights reserved. 
 
