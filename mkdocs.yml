@@ -13,7 +13,7 @@ extra_css:
   - stylesheets/extra.css
 
 theme:
-  name: rtd-dropdown
+  name: readthedocs
   logo: etc/logo.png
   favicon: etc/favicon.ico
   icon:
