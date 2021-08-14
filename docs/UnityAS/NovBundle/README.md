@@ -135,12 +135,3 @@ For exampl,e `file://C:/example/scenes.assetbundle`
 Copyright (c) Pixisoft. All rights reserved.
 
 See LICENSE.txt for details.
-
-
-##### Test 5
-
-Something
-
-###### Test 6
-
-Something
