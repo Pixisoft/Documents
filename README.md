@@ -3,7 +3,7 @@
 [![Publisher](https://img.shields.io/badge/unity-publisher.profile-black.svg?style=flat&logo=unity)](https://assetstore.unity.com/publishers/54455)
 
 <p align="center">
-  <img src="./etc/logo.png" />
+  <img src="./img/logo.png" />
 </p>
 
 # Documents
