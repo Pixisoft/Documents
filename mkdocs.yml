@@ -1,8 +1,9 @@
 site_name: Pixisoft Documentation
 site_description: Docuemtations for Pixisoft
-site_url: https://pixisoft.github.io/
 site_author: pixisoft.tw@gmail.com
 site_favicon: etc/favicon.ico
+
+repo_name: https://pixisoft.github.io/
 
 nav:
   - Home:
