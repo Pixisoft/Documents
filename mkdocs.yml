@@ -8,7 +8,6 @@ nav:
     - Overview: README.md
   - UnityAS:
     - Afterimage: UnityAS/Afterimage/README.md
-    - Inspect_Html: UnityAS/Inspect_Html/README.md
     - Inspect_Ini: UnityAS/Inspect_Ini/README.md
     - Inspect_Json: UnityAS/Inspect_Json/README.md
     - Inspect_Xml: UnityAS/Inspect_Xml/README.md
