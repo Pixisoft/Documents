@@ -2,6 +2,7 @@ site_name: Pixisoft Documentation
 site_description: Document String tool for Emacs
 site_url: https://pixisoft.github.io/
 site_author: pixisoft.tw@gmail.com
+site_favicon: etc/favicon.ico
 
 nav:
   - Home:
