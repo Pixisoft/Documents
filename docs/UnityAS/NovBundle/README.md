@@ -113,7 +113,7 @@ BundleDownloader.instance.BundleAsset(
 
 *🎉 Done!*
 
-## :pencil: Testing
+## 📝 Testing
 
 #### Methods 1. Test it on your server
 
