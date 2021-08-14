@@ -32,8 +32,9 @@ td, th {
 
 .wy-menu-vertical ul.navtree.subnav-l1 ul.subnav-l2, .wy-menu-vertical ul.navtree.subnav-l1 li.toctree-l2.current li.toctree-l3 > a {
   background-color: #22272E;
+  color: #ADBAC7;
 }
 
-.wy-menu-vertical .navtree li.toctree-l2.current > a, .wy-menu-vertical .navtree li.toctree-l2.current > span {
+.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
   color: #ADBAC7;
 }
