@@ -35,6 +35,6 @@ td, th {
   color: #ADBAC7;
 }
 
-.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
+.wy-menu-vertical .navtree li.toctree-l2.current > a, .wy-menu-vertical .navtree li.toctree-l2.current > span {
   color: #ADBAC7;
 }
