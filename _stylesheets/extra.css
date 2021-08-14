@@ -19,5 +19,8 @@ body {
 
 td, th {
   color: #ADBAC7;
+}
+
+tr, td {
   background: #22272E;
 }
