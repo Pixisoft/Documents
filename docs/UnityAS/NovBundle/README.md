@@ -4,21 +4,21 @@
 **Table of Contents**
 
 - [NovBundle](#novbundle)
-    - [:trophy: Features](#trophy-features)
-    - [:hammer: How to use?](#hammer-how-to-use)
-        - [:mag: How to create Asset Bundles?](#mag-how-to-create-asset-bundles)
+    - [🏆 Features](#trophy-features)
+    - [🔨 How to use?](#hammer-how-to-use)
+        - [🔍 How to create Asset Bundles?](#mag-how-to-create-asset-bundles)
             - [1. Create Asset Bundle](#1-create-asset-bundle)
             - [2. Build Asset Bundle for target platform](#2-build-asset-bundle-for-target-platform)
-        - [:mag: Upload to server](#mag-upload-to-server)
+        - [🔍 Upload to server](#mag-upload-to-server)
             - [1. Upload Asset Bundles files](#1-upload-asset-bundles-files)
             - [2. Upload `version.txt` file](#2-upload-versiontxt-file)
-        - [:mag: Download and use the Asset from the bundle](#mag-download-and-use-the-asset-from-the-bundle)
+        - [🔍 Download and use the Asset from the bundle](#mag-download-and-use-the-asset-from-the-bundle)
             - [1. Attach component `BundleDownloader`](#1-attach-component-bundledownloader)
             - [2. Access asset from script](#2-access-asset-from-script)
-    - [:pencil: Testing](#pencil-testing)
+    - [📝 Testing](#pencil-testing)
         - [-](#-)
         - [Methods 2. Test it with file url](#methods-2-test-it-with-file-url)
-    - [:link: References](#link-references)
+    - [🔗 References](#link-references)
     - [License](#license)
 
 <!-- markdown-toc end -->
@@ -27,13 +27,13 @@
 Unity Engine. This plugin focuses on simplifying the Asset Bundles workflow so
 the user would not have to know too much details about the system itself.
 
-## :hammer: How to use?
+## 🔨 How to use?
 
 There are major three parts for you to master this package. Three parts including
 `Creation`, `Upload`, `Call API`. The following instructions would help you get
 through the basic usage of each parts.
 
-### :mag: How to create Asset Bundles?
+### 🔍 How to create Asset Bundles?
 
 #### 1. Create Asset Bundle
 
@@ -55,7 +55,7 @@ outputted result should look like.
 
 *P.S. You can export multiple platform but make sure you have organized in platform folder*
 
-### :mag: Upload to server
+### 🔍 Upload to server
 
 #### 1. Upload Asset Bundles files
 
@@ -79,7 +79,7 @@ be number lower than 0!*
 
 ![FTP Client View](./etc/ftp_view.png)
 
-### :mag: Download and use the Asset from the bundle
+### 🔍 Download and use the Asset from the bundle
 
 #### 1. Attach component `BundleDownloader`
 
@@ -111,7 +111,7 @@ BundleDownloader.instance.BundleAsset(
 });
 ```
 
-*:tada: Done!*
+*🎉 Done!*
 
 ## :pencil: Testing
 
