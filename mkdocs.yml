@@ -18,7 +18,7 @@ nav:
     - Inspect Xml: UnityAS/Inspect_Xml/README.md
     - Inspect Yaml: UnityAS/Inspect_Yaml/README.md
     - NovBundle: UnityAS/NovBundle/README.md
-    - PackageExporter: UnityAS/PackageExporter/README.md
+    - Package Exporter: UnityAS/PackageExporter/README.md
     - sHierarchy: UnityAS/sHierarchy/README.md
     - WatchLog: UnityAS/WatchLog/README.md
 
