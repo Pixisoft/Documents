@@ -13,10 +13,10 @@ nav:
     - Overview: README.md
   - UnityAS:
     - Afterimage: UnityAS/Afterimage/README.md
-    - Inspect_Ini: UnityAS/Inspect_Ini/README.md
-    - Inspect_Json: UnityAS/Inspect_Json/README.md
-    - Inspect_Xml: UnityAS/Inspect_Xml/README.md
-    - Inspect_Yaml: UnityAS/Inspect_Yaml/README.md
+    - Inspect Ini: UnityAS/Inspect_Ini/README.md
+    - Inspect Json: UnityAS/Inspect_Json/README.md
+    - Inspect Xml: UnityAS/Inspect_Xml/README.md
+    - Inspect Yaml: UnityAS/Inspect_Yaml/README.md
     - NovBundle: UnityAS/NovBundle/README.md
     - PackageExporter: UnityAS/PackageExporter/README.md
     - sHierarchy: UnityAS/sHierarchy/README.md
