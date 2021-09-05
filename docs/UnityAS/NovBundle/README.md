@@ -95,7 +95,7 @@ BundleDownloader.instance.BundleAsset(
 After version `0.2.1`, you can now upload the asset bundles over the graphical
 user interface by using **NovBundle** -> **Upload** window.
 
-<img src="./etc/uploader.png" width="40%" height="40%"/>
+<img src="./etc/uploader.png" width="30%" height="30%"/>
 
 ## 📝 Testing
 
