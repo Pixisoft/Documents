@@ -90,6 +90,13 @@ BundleDownloader.instance.BundleAsset(
 
 *🎉 Done!*
 
+## 💾 Uploader (SFTP)
+
+After version `0.2.1`, you can now upload the asset bundles over the graphical
+user interface by using **NovBundle** -> **Upload** window.
+
+![Uploader](./etc/uploader.png)
+
 ## 📝 Testing
 
 #### Methods 1. Test it on your server
