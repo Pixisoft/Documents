@@ -96,7 +96,7 @@ After version `0.2.1`, you can now upload the asset bundles over the graphical
 user interface by using **NovBundle** -> **Upload** window.
 
 <p align="center">
-  <img src="./etc/uploader.png" width="75%" height="75%"/>
+  <img src="./etc/uploader.png" width="60%" height="60%"/>
 </p>
 
 ## 📝 Testing
