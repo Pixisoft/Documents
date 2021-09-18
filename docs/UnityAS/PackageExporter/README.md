@@ -26,7 +26,7 @@ Here explains how you use this package correctly.
 
 ### 🔍 Step 1. Import Package
 
-You will need to import the package to your project. The package 
+You will need to import the package to your project. The package
 can be download from [here](https://github.com/Pixisoft/PackageExporter/releases).
 
 ### 🔍 Step 2. Start using Package Exporter Window
@@ -42,11 +42,11 @@ After you fill the info, then hit `Generate Unity Ignore` button.
 ### 🔍 Step 4. Edit `.unityignore` file
 
 All the `.unityignore` files can be found under `PackageExporter/unityignore`
-directory. 
+directory.
 
 ### 🔍 Step 5. Export...
 
-Once the `.unityignore` file is generated, the according package 
+Once the `.unityignore` file is generated, the according package
 export button should appear.
 
 ### 🎉 Done, and Enjoy! 🥳
@@ -58,18 +58,18 @@ Now you can manage as many packages you want to export! 🎉
 Generated `.unityignore` file for `Hello World` package.
 
 ```
-# 
-# Thank you for using `Package Exporter`. This is the generated 
+#
+# Thank you for using `Package Exporter`. This is the generated
 # unityignore file.
-# 
+#
 # Package Name: Hello World
 # Version: 1.0.0
-# Creation Date: 2017-10-25 06:58:14 
-# 
+# Creation Date: 2017-10-25 06:58:14
+#
 # Package Link: https://github.com/Pixisoft/PackageExporter
 # Author: Shen, Jen-Chieh
 # Email: pixisoft.tw@gmail.com
-# 
+#
 
 # Ignore this plugin itself.
 ProjectExporter
@@ -83,6 +83,14 @@ Export the package `Hello World`.
 <p>
   <img src="./etc/export-package.gif"/>
 </p>
+
+## Command line arguments
+
+| Command        | Details                                                         |
+|:---------------|:----------------------------------------------------------------|
+| `-pkgName`     | Name of the exported pckage listed under unityignore directory. |
+| `-pkgVersion`  | Version of the exported package.                                |
+| `-pkgSavePath` | Where to save the exported package.                             |
 
 ## 📝 Todo List
 
