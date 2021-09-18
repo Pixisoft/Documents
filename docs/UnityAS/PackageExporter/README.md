@@ -88,9 +88,9 @@ Export the package `Hello World`.
 
 | Command        | Details                                                         |
 |:---------------|:----------------------------------------------------------------|
-| `-pkgName`     | Name of the exported pckage listed under unityignore directory. |
-| `-pkgVersion`  | Version of the exported package.                                |
-| `-pkgSavePath` | Where to save the exported package.                             |
+| `--name`       | Name of the exported pckage listed under unityignore directory. |
+| `--version`    | Version of the exported package.                                |
+| `--savePath`   | Where to save the exported package.                             |
 
 ## 📝 Todo List
 
