@@ -411,7 +411,7 @@ ProjectExporter
 </tbody>
 </table>
 <p>For example,</p>
-<div class="highlight"><pre><span></span><code>$UNITY_PATH -batchmode -quit -executeMethod PackageExporter.BatchMode.Export --name &quot;Hello World&quot; --version &quot;0.1.0&quot; --savePath &quot;.&quot;
+<div class="highlight"><pre><span></span><code>$UNITY_PATH -batchmode -quit -projectPath &quot;.&quot; -executeMethod PackageExporter.BatchMode.Export --name &quot;Hello World&quot; --version &quot;0.1.0&quot; --savePath &quot;.&quot;
 </code></pre></div>
 <p>The <code>$UNITY_PATH</code> is the path to Unity executable hence it depends on variant OS.</p>
 <p>On macOS,</p>
