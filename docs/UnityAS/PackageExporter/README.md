@@ -92,11 +92,11 @@ You can export package by using Unity's batch mode.
 |:-----------------------------------|:------------------------------------|:------------------------------------|
 | `PackageExporter.BatchMode.Export` | `--name`, `--version`, `--savePath` | Export package by unityignore name. |
 
-| Command      | Details                                                          |
-|:-------------|:-----------------------------------------------------------------|
-| `--name`     | Name of the exported package listed under unityignore directory. |
-| `--version`  | Version of the exported package.                                 |
-| `--savePath` | Where to save the exported package.                              |
+| Command      | Details                                                          | Optional |
+|:-------------|:-----------------------------------------------------------------|----------|
+| `--name`     | Name of the exported package listed under unityignore directory. | ❌       |
+| `--version`  | Version of the exported package.                                 | ❌       |
+| `--savePath` | Where to save the exported package.                              | ❌       |
 
 For example,
 

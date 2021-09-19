@@ -106,19 +106,19 @@ You can build Asset Bundles by using Unity's batch mode.
 | `NovBundle.BatchMode.BuildBundle` | `--platform`, `--savePath`                                                                                                                                | Build target asset bundles to save path.             |
 | `NovBundle.BatchMode.Upload`      | `--platform`, `--savePath`, `--host`, `--port`, `--username`, `--password`, `--privateKey`, `--passphrase`, `--workingPath`, `--versionFile`, `--version` | Upload the asset bundles to the server through SFTP. |
 
-| Command         | Details                                                     |
-|:----------------|:------------------------------------------------------------|
-| `--platform`    | Platform asset bundles to build.                            |
-| `--savePath`    | Where to save the asset bundles.                            |
-| `--host`        | Host name for SFTP.                                         |
-| `--port `       | Optional port number. (Default to 22)                       |
-| `--username`    | Username for login.                                         |
-| `--password`    | Password for login.                                         |
-| `--privateKey`  | Path points to your private key.                            |
-| `--passphrase`  | Passphrase for your private key.                            |
-| `--workingPath` | Target path from your server.                               |
-| `--versionFile` | Version text file. (Default to `version.txt`)               |
-| `--version`     | Version number apply to version text file. (Default to `1`) |
+| Command         | Details                                                     | Optional |
+|:----------------|:------------------------------------------------------------|----------|
+| `--platform`    | Platform asset bundles to build.                            | ❌       |
+| `--savePath`    | Where to save the asset bundles.                            | ❌       |
+| `--host`        | Host name for SFTP.                                         | ❌       |
+| `--port `       | Optional port number. (Default to 22)                       | ✔        |
+| `--username`    | Username for login.                                         | ❌       |
+| `--password`    | Password for login.                                         | ❌       |
+| `--privateKey`  | Path points to your private key.                            | ❌       |
+| `--passphrase`  | Passphrase for your private key.                            | ✔        |
+| `--workingPath` | Target path from your server.                               | ❌       |
+| `--versionFile` | Version text file. (Default to `version.txt`)               | ✔        |
+| `--version`     | Version number apply to version text file. (Default to `1`) | ✔        |
 
 For example,
 
