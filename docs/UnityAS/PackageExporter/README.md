@@ -84,7 +84,7 @@ Export the package `Hello World`.
   <img src="./etc/export-package.gif"/>
 </p>
 
-## Command line arguments
+## 🖥️ Command line arguments
 
 You can export package by using Unity's batch mode.
 
