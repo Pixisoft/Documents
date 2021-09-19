@@ -97,6 +97,52 @@ user interface by using **NovBundle** -> **Upload** window.
 
 ![Uploader](./etc/uploader.png)
 
+## 🖥️ Batch Mode
+
+You can build Asset Bundles by using Unity's batch mode.
+
+| Method                            | Arguments                                  | Details                                              |
+|:----------------------------------|:-------------------------------------------|:-----------------------------------------------------|
+| `NovBundle.BatchMode.BuildBundle` | `--platform`, `--savePath`                 | Build target asset bundles to save path.             |
+| `NovBundle.BatchMode.Upload`      | `--platform`, `--savePath`, `--host`, `--port` | Upload the asset bundles to the server through SFTP. |
+
+| Command         | Details                          |
+|:----------------|:---------------------------------|
+| `--platform`    | Platform asset bundles to build. |
+| `--savePath`    | Where to save the asset bundles. |
+| `--host`        | Host name for SFTP.              |
+| `--port `       | Optional port. (Default to 22)   |
+| `--username`    |                                  |
+| `--password`    |                                  |
+| `--passphrase`  |                                  |
+| `--privateKey`  |                                  |
+| `--workingPath` |                                  |
+| `--versionFile` |                                  |
+| `--version`     |                                  |
+
+For example,
+
+```
+$UNITY_PATH -batchmode -quit -projectPath "." -executeMethod NovBundle.BatchMode.BuildBundle --platform "Windows" --savePath "."
+```
+
+The `$UNITY_PATH` is the path to Unity executable hence it depends on variant OS.
+
+On macOS,
+
+```
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+```
+
+On Windows,
+
+```
+"C:\Program Files\Unity\Editor\Unity.exe"
+```
+
+For more information, see [Command line arguments](https://docs.unity3d.com/Manual/CommandLineArguments.html).
+
+
 ## 📝 Testing
 
 #### Methods 1. Test it on your server
