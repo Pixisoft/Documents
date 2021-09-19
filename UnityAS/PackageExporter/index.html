@@ -387,6 +387,7 @@ ProjectExporter
 </p>
 
 <h2 id="command-line-arguments">Command line arguments<a class="headerlink" href="#command-line-arguments" title="Permanent link">#</a></h2>
+<p>You can export package by using Unity's batch mode.</p>
 <table>
 <thead>
 <tr>
@@ -409,6 +410,17 @@ ProjectExporter
 </tr>
 </tbody>
 </table>
+<p>For example,</p>
+<div class="highlight"><pre><span></span><code>$UNITY_PATH -batchmode -quit -executeMethod PackageExporter.BatchMode.Export --name &quot;Hello World&quot; --version &quot;0.1.0&quot; --savePath &quot;.&quot;
+</code></pre></div>
+<p>The <code>$UNITY_PATH</code> is the path to Unity executable hence it depends on variant OS.</p>
+<p>On macOS,</p>
+<div class="highlight"><pre><span></span><code>/Applications/Unity/Unity.app/Contents/MacOS/Unity
+</code></pre></div>
+<p>On Windows,</p>
+<div class="highlight"><pre><span></span><code>&quot;C:\Program Files\Unity\Editor\Unity.exe&quot;
+</code></pre></div>
+<p>For more information, see <a href="https://docs.unity3d.com/Manual/CommandLineArguments.html">Command line arguments</a>.</p>
 <h2 id="todo-list">📝 Todo List<a class="headerlink" href="#todo-list" title="Permanent link">#</a></h2>
 <ul>
 <li>[ ] Support ingore extension syntax. (*.meta)</li>
