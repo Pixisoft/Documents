@@ -263,6 +263,11 @@
         </li>
     
       
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#batch-mode">🖥️ Batch Mode</a>
+        </li>
+    
+      
           
 
   <li class="toctree-l3">
@@ -434,6 +439,94 @@ BundleDownloader.instance.BundleAsset(
 <p>After version <code>0.2.1</code>, you can now upload the asset bundles over the graphical
 user interface by using <strong>NovBundle</strong> -&gt; <strong>Upload</strong> window.</p>
 <p><img alt="Uploader" src="etc/uploader.png" /></p>
+<h2 id="batch-mode">🖥️ Batch Mode<a class="headerlink" href="#batch-mode" title="Permanent link">#</a></h2>
+<p>You can build Asset Bundles by using Unity's batch mode.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Method</th>
+<th align="left">Arguments</th>
+<th align="left">Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>NovBundle.BatchMode.BuildBundle</code></td>
+<td align="left"><code>--platform</code>, <code>--savePath</code></td>
+<td align="left">Build target asset bundles to save path.</td>
+</tr>
+<tr>
+<td align="left"><code>NovBundle.BatchMode.Upload</code></td>
+<td align="left"><code>--platform</code>, <code>--savePath</code>, <code>--host</code>, <code>--port</code></td>
+<td align="left">Upload the asset bundles to the server through SFTP.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="left">Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>--platform</code></td>
+<td align="left">Platform asset bundles to build.</td>
+</tr>
+<tr>
+<td align="left"><code>--savePath</code></td>
+<td align="left">Where to save the asset bundles.</td>
+</tr>
+<tr>
+<td align="left"><code>--host</code></td>
+<td align="left">Host name for SFTP.</td>
+</tr>
+<tr>
+<td align="left"><code>--port</code></td>
+<td align="left">Optional port. (Default to 22)</td>
+</tr>
+<tr>
+<td align="left"><code>--username</code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>--password</code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>--passphrase</code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>--privateKey</code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>--workingPath</code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>--versionFile</code></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code>--version</code></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>For example,</p>
+<div class="highlight"><pre><span></span><code>$UNITY_PATH -batchmode -quit -projectPath &quot;.&quot; -executeMethod NovBundle.BatchMode.BuildBundle --platform &quot;Windows&quot; --savePath &quot;.&quot;
+</code></pre></div>
+<p>The <code>$UNITY_PATH</code> is the path to Unity executable hence it depends on variant OS.</p>
+<p>On macOS,</p>
+<div class="highlight"><pre><span></span><code>/Applications/Unity/Unity.app/Contents/MacOS/Unity
+</code></pre></div>
+<p>On Windows,</p>
+<div class="highlight"><pre><span></span><code>&quot;C:\Program Files\Unity\Editor\Unity.exe&quot;
+</code></pre></div>
+<p>For more information, see <a href="https://docs.unity3d.com/Manual/CommandLineArguments.html">Command line arguments</a>.</p>
 <h2 id="testing">📝 Testing<a class="headerlink" href="#testing" title="Permanent link">#</a></h2>
 <h4 id="methods-1-test-it-on-your-server">Methods 1. Test it on your server<a class="headerlink" href="#methods-1-test-it-on-your-server" title="Permanent link">#</a></h4>
 <p>For exampl,e <code>http://www.yourwebsite.com/example/scenes.assetbundle</code></p>
