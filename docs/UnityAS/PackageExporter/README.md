@@ -84,15 +84,19 @@ Export the package `Hello World`.
   <img src="./etc/export-package.gif"/>
 </p>
 
-## 🖥️ Command line arguments
+## 🖥️ Batch Mode
 
 You can export package by using Unity's batch mode.
 
-| Command        | Details                                                         |
-|:---------------|:----------------------------------------------------------------|
-| `--name`       | Name of the exported pckage listed under unityignore directory. |
-| `--version`    | Version of the exported package.                                |
-| `--savePath`   | Where to save the exported package.                             |
+| Method                             | Arguments                           | Details                             |
+|:-----------------------------------|:------------------------------------|:------------------------------------|
+| `PackageExporter.BatchMode.Export` | `--name`, `--version`, `--savePath` | Export package by unityignore name. |
+
+| Command      | Details                                                          |
+|:-------------|:-----------------------------------------------------------------|
+| `--name`     | Name of the exported package listed under unityignore directory. |
+| `--version`  | Version of the exported package.                                 |
+| `--savePath` | Where to save the exported package.                              |
 
 For example,
 
