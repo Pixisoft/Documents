@@ -97,7 +97,7 @@ You can export package by using Unity's batch mode.
 For example,
 
 ```
-$UNITY_PATH -batchmode -quit -executeMethod PackageExporter.BatchMode.Export --name "Hello World" --version "0.1.0" --savePath "."
+$UNITY_PATH -batchmode -quit -projectPath "." -executeMethod PackageExporter.BatchMode.Export --name "Hello World" --version "0.1.0" --savePath "."
 ```
 
 The `$UNITY_PATH` is the path to Unity executable hence it depends on variant OS.
