@@ -86,11 +86,35 @@ Export the package `Hello World`.
 
 ## Command line arguments
 
+You can export package by using Unity's batch mode.
+
 | Command        | Details                                                         |
 |:---------------|:----------------------------------------------------------------|
 | `--name`       | Name of the exported pckage listed under unityignore directory. |
 | `--version`    | Version of the exported package.                                |
 | `--savePath`   | Where to save the exported package.                             |
+
+For example,
+
+```
+$UNITY_PATH -batchmode -quit -executeMethod PackageExporter.BatchMode.Export --name "Hello World" --version "0.1.0" --savePath "."
+```
+
+The `$UNITY_PATH` is the path to Unity executable hence it depends on variant OS.
+
+On macOS,
+
+```
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+```
+
+On Windows,
+
+```
+"C:\Program Files\Unity\Editor\Unity.exe"
+```
+
+For more information, see [Command line arguments](https://docs.unity3d.com/Manual/CommandLineArguments.html).
 
 ## 📝 Todo List
 
