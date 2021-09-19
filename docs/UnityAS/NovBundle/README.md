@@ -107,7 +107,7 @@ You can build Asset Bundles by using Unity's batch mode.
 | `NovBundle.BatchMode.Upload`      | `--platform`, `--savePath`, `--host`, `--port`, `--username`, `--password`, `--privateKey`, `--passphrase`, `--workingPath`, `--versionFile`, `--version` | Upload the asset bundles to the server through SFTP. |
 
 | Command         | Details                                                     | Optional |
-|:----------------|:------------------------------------------------------------|----------|
+|:----------------|:------------------------------------------------------------|:--------:|
 | `--platform`    | Platform asset bundles to build.                            | ❌       |
 | `--savePath`    | Where to save the asset bundles.                            | ❌       |
 | `--host`        | Host name for SFTP.                                         | ❌       |
