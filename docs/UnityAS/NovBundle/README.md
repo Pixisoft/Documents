@@ -79,7 +79,9 @@ using NovBundle;
 
 ...
 
-BundleDownloader.instance.BundleAsset(
+BundleDownloader bundleDownloader = ...;  // Assign bundle downloader here!
+
+bundleDownloader.BundleAsset(
     "_bundle_1",  // Name of the bundle
     "assets/_project/prefabs/sphere.prefab", (asset) =>  // Target asset, and callback
 {
