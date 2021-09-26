@@ -426,7 +426,9 @@ the asset from the asset bundle you have created.</p>
 
 ...
 
-BundleDownloader.instance.BundleAsset(
+BundleDownloader bundleDownloader = ...;  // Assign bundle downloader here!
+
+bundleDownloader.BundleAsset(
     &quot;_bundle_1&quot;,  // Name of the bundle
     &quot;assets/_project/prefabs/sphere.prefab&quot;, (asset) =&gt;  // Target asset, and callback
 {
