@@ -1,11 +1,14 @@
 <p align="center">
   <img src="./etc/logo.png" />
+  <p align="center">
+  <a href="https://trello.com/invite/b/Jkmd4Zff/a0cca4efc9257f197765d15444080817/pixisofttw"><img alt="Trello" src="https://img.shields.io/badge/view%20progress%20on-trello-026AA7.svg"/></a>
+  <a href="https://publisher.unity.com/packages"><img alt="Unity Engine" src="https://img.shields.io/badge/unity-publisher.portal-black.svg?style=flat&logo=unity&cacheSeconds=2592000"/></a>
+  <a href="https://assetstore.unity.com/publishers/54455"><img alt="Publisher" src="https://img.shields.io/badge/unity-publisher.profile-black.svg?style=flat&logo=unity"/></a>
+  </p>
+  <p align="center">
+  <a href="https://github.com/Pixisoft/Documents/actions/workflows/docs.yml"><img alt="Docs" src="https://github.com/Pixisoft/Documents/actions/workflows/docs.yml/badge.svg"/></a>
+  </p>
 </p>
-
-[![Trello](https://img.shields.io/badge/view%20progress%20on-trello-026AA7.svg)](https://trello.com/invite/b/Jkmd4Zff/a0cca4efc9257f197765d15444080817/pixisofttw)
-[![Unity Engine](https://img.shields.io/badge/unity-publisher.portal-black.svg?style=flat&logo=unity&cacheSeconds=2592000)](https://publisher.unity.com/packages)
-[![Publisher](https://img.shields.io/badge/unity-publisher.profile-black.svg?style=flat&logo=unity)](https://assetstore.unity.com/publishers/54455)
-[![Docs](https://github.com/Pixisoft/Documents/actions/workflows/docs.yml/badge.svg)](https://github.com/Pixisoft/Documents/actions/workflows/docs.yml)
 
 ## Introduction
 
