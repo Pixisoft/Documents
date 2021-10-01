@@ -4,6 +4,14 @@
 Unity Engine. This plugin focuses on simplifying the Asset Bundles workflow so
 the user would not have to know too much details about the system itself.
 
+## 🤝 Acknowledge
+
+This tool is proprietary software made when I worked under [NOVABY](https://www.novaby.com/)
+to resolve certain issues from the upstream [Asset Bundles](https://docs.unity3d.com/Manual/AssetBundlesIntro.html)
+system from [Unity Technology](https://unity.com/). Thankfully, they have granted
+me the permission for me to release this tool and sell it to public on Aug 29, 2021,
+so here's a big thank you to them! ♥️
+
 ## 🔨 How to use?
 
 There are major three parts for you to master this package. Three parts including
