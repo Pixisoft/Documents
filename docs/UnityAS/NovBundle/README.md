@@ -9,7 +9,7 @@ the user would not have to know too much details about the system itself.
 This proprietary software is made when I worked under [NOVABY](https://www.novaby.com/),
 in order to attempt to resolve certain issues from the upstream [Asset Bundles](https://docs.unity3d.com/Manual/AssetBundlesIntro.html)
 system. Thankfully, they have granted us permission to release this tool and
-sell it to the public on `**Aug 29, 2021**`, so here's a big thank you to them! ♥️
+sell it to the public on **`Aug 29, 2021`**, so here's a big thank you to them! ♥️
 
 ## 🔨 How to use?
 
