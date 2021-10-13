@@ -15,19 +15,19 @@ software development services. Check out the key services below.
 
 ## 📝 Services
 
-### Game Development
+### 🎮 Game Development
 
 N/A
 
-### Web Development
+### 🗯️ Web Development
 
 N/A
 
-### Tool Development
+### 🔨 Tool Development
 
 N/A
 
-### QA & Testing
+### ⚙️ QA & Testing
 
 N/A
 
