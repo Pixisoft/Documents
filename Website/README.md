@@ -1,19 +1,19 @@
-# Website
+# 🌏 Website
 > Some descriptions for our website to provide information for our customers!
 
-## Header
+## 📌 Header
 
 We provide custom software development and IT outsourcing services. Our
 developers build custom software for individuals, startups, and small to
 medium business.
 
-## Company
+## 🏟️ Company
 
 Based on many years of experience, we know that every business has a different
 software and hardware environment. That is why we provide a wide range of
 software development services. Check out the key services below.
 
-## Services
+## 📝 Services
 
 ### Game Development
 
@@ -31,7 +31,7 @@ N/A
 
 N/A
 
-## Footer
+## 📌 Footer
 
 Pixisoft is an international software development company established in 2021.
 We provide comprehensive services including, development of mobile applications,
