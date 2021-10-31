@@ -464,12 +464,12 @@ user interface by using <strong>NovBundle</strong> -&gt; <strong>Upload</strong>
 <tbody>
 <tr>
 <td align="left"><code>NovBundle.BatchMode.BuildBundle</code></td>
-<td align="left"><code>--platform</code>, <code>--savePath</code></td>
+<td align="left"><code>_platform</code>, <code>_savePath</code></td>
 <td align="left">Build target asset bundles to save path.</td>
 </tr>
 <tr>
 <td align="left"><code>NovBundle.BatchMode.Upload</code></td>
-<td align="left"><code>--platform</code>, <code>--savePath</code>, <code>--host</code>, <code>--port</code>, <code>--username</code>, <code>--password</code>, <code>--privateKey</code>, <code>--passphrase</code>, <code>--workingPath</code>, <code>--versionFile</code>, <code>--version</code></td>
+<td align="left"><code>_platform</code>, <code>_savePath</code>, <code>_host</code>, <code>_port</code>, <code>_username</code>, <code>_password</code>, <code>_privateKey</code>, <code>_passphrase</code>, <code>_workingPath</code>, <code>_versionFile</code>, <code>_version</code></td>
 <td align="left">Upload the asset bundles to the server through SFTP.</td>
 </tr>
 </tbody>
@@ -484,64 +484,64 @@ user interface by using <strong>NovBundle</strong> -&gt; <strong>Upload</strong>
 </thead>
 <tbody>
 <tr>
-<td align="left"><code>--platform</code></td>
+<td align="left"><code>_platform</code></td>
 <td align="center">❌</td>
 <td align="left">Platform asset bundles to build.</td>
 </tr>
 <tr>
-<td align="left"><code>--savePath</code></td>
+<td align="left"><code>_savePath</code></td>
 <td align="center">❌</td>
 <td align="left">Where to save the asset bundles.</td>
 </tr>
 <tr>
-<td align="left"><code>--host</code></td>
+<td align="left"><code>_host</code></td>
 <td align="center">❌</td>
 <td align="left">Host name for SFTP.</td>
 </tr>
 <tr>
-<td align="left"><code>--port</code></td>
+<td align="left"><code>_port</code></td>
 <td align="center">✔</td>
 <td align="left">Optional port number. (Default to 22)</td>
 </tr>
 <tr>
-<td align="left"><code>--username</code></td>
+<td align="left"><code>_username</code></td>
 <td align="center">❌</td>
 <td align="left">Username for login.</td>
 </tr>
 <tr>
-<td align="left"><code>--password</code></td>
+<td align="left"><code>_password</code></td>
 <td align="center">❌</td>
 <td align="left">Password for login.</td>
 </tr>
 <tr>
-<td align="left"><code>--privateKey</code></td>
+<td align="left"><code>_privateKey</code></td>
 <td align="center">❌</td>
 <td align="left">Path points to your private key.</td>
 </tr>
 <tr>
-<td align="left"><code>--passphrase</code></td>
+<td align="left"><code>_passphrase</code></td>
 <td align="center">✔</td>
 <td align="left">Passphrase for your private key.</td>
 </tr>
 <tr>
-<td align="left"><code>--workingPath</code></td>
+<td align="left"><code>_workingPath</code></td>
 <td align="center">❌</td>
 <td align="left">Target path from your server.</td>
 </tr>
 <tr>
-<td align="left"><code>--versionFile</code></td>
+<td align="left"><code>_versionFile</code></td>
 <td align="center">✔</td>
 <td align="left">Version text file. (Default to <code>version.txt</code>)</td>
 </tr>
 <tr>
-<td align="left"><code>--version</code></td>
+<td align="left"><code>_version</code></td>
 <td align="center">✔</td>
 <td align="left">Version number apply to version text file. (Default to <code>1</code>)</td>
 </tr>
 </tbody>
 </table>
 <p>For example,</p>
-<div class="highlight"><pre><span></span><code>$UNITY_PATH -batchmode -quit -projectPath &quot;.&quot; -executeMethod NovBundle.BatchMode.BuildBundle --platform &quot;Windows&quot; --savePath &quot;.&quot;
+<div class="highlight"><pre><span></span><code>$UNITY_PATH -batchmode -quit -projectPath &quot;.&quot; -executeMethod NovBundle.BatchMode.BuildBundle _platform &quot;Windows&quot; _savePath &quot;.&quot;
 </code></pre></div>
 <p>The <code>$UNITY_PATH</code> is the path to Unity executable hence it depends on variant OS.</p>
 <p>On macOS,</p>
