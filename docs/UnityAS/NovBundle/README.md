@@ -110,29 +110,29 @@ user interface by using **NovBundle** -> **Upload** window.
 
 You can build Asset Bundles by using Unity's batch mode.
 
-| Method                            | Arguments                                                                                                                                                 | Details                                              |
-|:----------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| `NovBundle.BatchMode.BuildBundle` | `--platform`, `--savePath`                                                                                                                                | Build target asset bundles to save path.             |
-| `NovBundle.BatchMode.Upload`      | `--platform`, `--savePath`, `--host`, `--port`, `--username`, `--password`, `--privateKey`, `--passphrase`, `--workingPath`, `--versionFile`, `--version` | Upload the asset bundles to the server through SFTP. |
+| Method                            | Arguments                                                                                                                                      | Details                                              |
+|:----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
+| `NovBundle.BatchMode.BuildBundle` | `_platform`, `_savePath`                                                                                                                       | Build target asset bundles to save path.             |
+| `NovBundle.BatchMode.Upload`      | `_platform`, `_savePath`, `_host`, `_port`, `_username`, `_password`, `_privateKey`, `_passphrase`, `_workingPath`, `_versionFile`, `_version` | Upload the asset bundles to the server through SFTP. |
 
-| Command         | Optional | Details                                                     |
-|:----------------|:--------:|:------------------------------------------------------------|
-| `--platform`    | ❌       | Platform asset bundles to build.                            |
-| `--savePath`    | ❌       | Where to save the asset bundles.                            |
-| `--host`        | ❌       | Host name for SFTP.                                         |
-| `--port `       | ✔        | Optional port number. (Default to 22)                       |
-| `--username`    | ❌       | Username for login.                                         |
-| `--password`    | ❌       | Password for login.                                         |
-| `--privateKey`  | ❌       | Path points to your private key.                            |
-| `--passphrase`  | ✔        | Passphrase for your private key.                            |
-| `--workingPath` | ❌       | Target path from your server.                               |
-| `--versionFile` | ✔        | Version text file. (Default to `version.txt`)               |
-| `--version`     | ✔        | Version number apply to version text file. (Default to `1`) |
+| Command        | Optional | Details                                                     |
+|:---------------|:--------:|:------------------------------------------------------------|
+| `_platform`    | ❌       | Platform asset bundles to build.                            |
+| `_savePath`    | ❌       | Where to save the asset bundles.                            |
+| `_host`        | ❌       | Host name for SFTP.                                         |
+| `_port `       | ✔        | Optional port number. (Default to 22)                       |
+| `_username`    | ❌       | Username for login.                                         |
+| `_password`    | ❌       | Password for login.                                         |
+| `_privateKey`  | ❌       | Path points to your private key.                            |
+| `_passphrase`  | ✔        | Passphrase for your private key.                            |
+| `_workingPath` | ❌       | Target path from your server.                               |
+| `_versionFile` | ✔        | Version text file. (Default to `version.txt`)               |
+| `_version`     | ✔        | Version number apply to version text file. (Default to `1`) |
 
 For example,
 
 ```
-$UNITY_PATH -batchmode -quit -projectPath "." -executeMethod NovBundle.BatchMode.BuildBundle --platform "Windows" --savePath "."
+$UNITY_PATH -batchmode -quit -projectPath "." -executeMethod NovBundle.BatchMode.BuildBundle _platform "Windows" _savePath "."
 ```
 
 The `$UNITY_PATH` is the path to Unity executable hence it depends on variant OS.
