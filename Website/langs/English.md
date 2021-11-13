@@ -16,7 +16,7 @@ software development services. Check out the key services below.
 
 ### 🎮 Game Development
 
-We help program Game components/modules
+We help program Game components/modules, or full game application. 
 
 ### 🗯️ Web Development
 
@@ -24,7 +24,8 @@ N/A
 
 ### 🔨 Tool Development
 
-N/A
+Create tool is the first step to increase productivity for your team! We create
+desktop/mobile application, web app interface, and CI/CD services.
 
 ### ⚙️ QA & Testing
 
