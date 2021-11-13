@@ -16,7 +16,7 @@ software development services. Check out the key services below.
 
 ### 🎮 Game Development
 
-N/A
+We help program Game components/modules
 
 ### 🗯️ Web Development
 
