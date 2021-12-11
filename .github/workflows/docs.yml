@@ -34,7 +34,7 @@ jobs:
           path: _temp
           lfs: true
 
-      - name: Grab README from Pixisoft/${{ matrix.repo }}
+      - name: Grab documents from Pixisoft/${{ matrix.repo }}
         continue-on-error: true
         run: |
           cp -rf _temp/README.md docs/UnityAS/${{ matrix.repo }}/README.md
@@ -42,6 +42,7 @@ jobs:
           rm -rf _temp
 
       - name: Push back
+        continue-on-error: true
         run: |
           git pull
           git config user.name github-actions
