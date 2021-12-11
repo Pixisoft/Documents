@@ -4,6 +4,10 @@
 # NovBundle
 
 [![License](https://github.com/Pixisoft/NovBundle/actions/workflows/license.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/license.yml)
+[![Source ⚙️](https://github.com/Pixisoft/NovBundle/actions/workflows/source_build.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/source_build.yml)
+[![Source 📦](https://github.com/Pixisoft/NovBundle/actions/workflows/source_package.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/source_package.yml)
+[![Publish ⚙️](https://github.com/Pixisoft/NovBundle/actions/workflows/publish_build.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/publish_build.yml)
+[![Publish 📦](https://github.com/Pixisoft/NovBundle/actions/workflows/publish_package.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/publish_package.yml)
 
 **NovBundle** is a abstraction layer built on top of Asset Bundles system from
 Unity Engine. This plugin focuses on simplifying the Asset Bundles workflow so
@@ -18,16 +22,9 @@ sell it to the public on **`Aug 29, 2021`**, so here's a big thank you to them! 
 
 ## 📁 Project Structures
 
-> [![Source ⚙️](https://github.com/Pixisoft/NovBundle/actions/workflows/source_build.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/source_build.yml)
-> [![Source 📦](https://github.com/Pixisoft/NovBundle/actions/workflows/source_package.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/source_package.yml)
-
 * `Source` - Project contains plugin's source code.
 * `Compile` - Project compiles source to DLL, it will link `_references` DLLs.
 * `_references` - Unity DLL to compile project source to DLL.
-
-> [![Publish ⚙️](https://github.com/Pixisoft/NovBundle/actions/workflows/publish_build.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/publish_build.yml)
-> [![Publish 📦](https://github.com/Pixisoft/NovBundle/actions/workflows/publish_package.yml/badge.svg)](https://github.com/Pixisoft/NovBundle/actions/workflows/publish_package.yml)
-
 * `Publish` - Project that contains package DLL and ready to publish to [Asset Store Publisher](https://publisher.assetstore.unity3d.com/info.html?_gl=1*1fwg1ij*_ga*MTg0NjU4MTc4NC4xNjAwMzQ5NzM3*_ga_1S78EFL1W5*MTYyNDI3MzU4Ni40Ni4wLjE2MjQyNzM1ODYuNjA.&_ga=2.77544981.1416380940.1624186429-1846581784.1600349737) portal.
 * `Test` - Project to test if everything work well to new empty Unity project.
 
