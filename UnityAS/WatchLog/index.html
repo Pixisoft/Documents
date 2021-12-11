@@ -163,23 +163,36 @@
     
       
 
-
-
-  <li class="toctree-l2 current">
-    <ul class="subnav-l2 current">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#features">🏆 Features</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#license">License</a>
-        </li>
-    
-    </ul>
+  <li class="toctree-l2 current with-children">
+    <a href="#source">
+      📝 Source
+      <span class="toctree-expand"></span>
+    </a>
   </li>
+
+
+
+      
+
+  <li class="toctree-l2">
+    <a href="#compiling">
+      💬 Compiling
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+      
+
+  <li class="toctree-l2">
+    <a href="#publishing">
+      ✒️ Publishing
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
 
 
   
@@ -226,23 +239,29 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="watchlog">WatchLog<a class="headerlink" href="#watchlog" title="Permanent link">#</a></h1>
-<p>A dedicated tool that tracks variable over time.</p>
-<p align="center">
-  <img src="./etc/demo.png"/>
-</p>
-
-<h2 id="features">🏆 Features<a class="headerlink" href="#features" title="Permanent link">#</a></h2>
+                <p><strong>This page only describes the project structure, please visit the source folder to see
+the full documentation.</strong></p>
+<p><a href="https://github.com/Pixisoft/WatchLog/blob/master/COPYING"><img alt="License: Private" src="https://img.shields.io/badge/License-Private-green.svg" /></a>
+<a href="https://unity3d.com/get-unity/download/archive"><img alt="Unity Engine" src="https://img.shields.io/badge/unity-2021.2.0f1-black.svg?style=flat&amp;logo=unity&amp;cacheSeconds=2592000" /></a>
+<a href="https://github.com/Pixisoft/WatchLog/actions/workflows/license.yml"><img alt="License" src="https://github.com/Pixisoft/WatchLog/actions/workflows/license.yml/badge.svg" /></a></p>
+<hr />
+<h4 id="source">📝 Source<a class="headerlink" href="#source" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Pixisoft/WatchLog/actions/workflows/source_build.yml"><img alt="Source ⚙️" src="https://github.com/Pixisoft/WatchLog/actions/workflows/source_build.yml/badge.svg" /></a>
+<a href="https://github.com/Pixisoft/WatchLog/actions/workflows/source_package.yml"><img alt="Source 📦" src="https://github.com/Pixisoft/WatchLog/actions/workflows/source_package.yml/badge.svg" /></a></p>
 <ul>
-<li>Out of box</li>
-<li>Lightweight and easy to use</li>
-<li>Display an editor window with the data you want to keep an eye on</li>
-<li>Show Error/Warning/Log information</li>
-<li>Display each value in categories</li>
+<li><code>Source</code> - Project contains plugin's source code.</li>
 </ul>
-<h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">#</a></h2>
-<p>Copyright (c) Pixisoft. All rights reserved.</p>
-<p>pixisoft.tw@gmail.com</p>
+<h4 id="compiling">💬 Compiling<a class="headerlink" href="#compiling" title="Permanent link">#</a></h4>
+<ul>
+<li><code>Compile</code> - Project compiles source to DLL, it will link <code>_references</code> DLLs.</li>
+<li><code>_references</code> - Unity DLL to compile project source to DLL.</li>
+</ul>
+<h4 id="publishing">✒️ Publishing<a class="headerlink" href="#publishing" title="Permanent link">#</a></h4>
+<p><a href="https://github.com/Pixisoft/WatchLog/actions/workflows/publish_build.yml"><img alt="Publish ⚙️" src="https://github.com/Pixisoft/WatchLog/actions/workflows/publish_build.yml/badge.svg" /></a>
+<a href="https://github.com/Pixisoft/WatchLog/actions/workflows/publish_package.yml"><img alt="Publish 📦" src="https://github.com/Pixisoft/WatchLog/actions/workflows/publish_package.yml/badge.svg" /></a></p>
+<ul>
+<li><code>Publish</code> - Project that contains package DLL and ready to publish to <a href="https://publisher.assetstore.unity3d.com/info.html?_gl=1*1fwg1ij*_ga*MTg0NjU4MTc4NC4xNjAwMzQ5NzM3*_ga_1S78EFL1W5*MTYyNDI3MzU4Ni40Ni4wLjE2MjQyNzM1ODYuNjA.&amp;_ga=2.77544981.1416380940.1624186429-1846581784.1600349737">Asset Store Publisher</a> portal.</li>
+</ul>
               
             </div>
           </div>
