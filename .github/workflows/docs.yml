@@ -12,7 +12,8 @@ jobs:
       - name: Clone all repo
         uses: actions/checkout@v2
         with:
-          repository: 'Pixisoft/Afterimage'
+          repository: Pixisoft/Afterimage
+          token: ${{ secrets.ACCESS_TOKEN }}
           lfs: true
 
       - name: Checkout self
