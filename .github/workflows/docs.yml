@@ -29,6 +29,15 @@ jobs:
         run: |
           cp -rf _temp/README.md docs/UnityAS/${{ matrix.repo }}/README.md
           cp -rf _temp/etc/ docs/UnityAS/${{ matrix.repo }}/etc/
+          rm -rf _temp
+
+      - name: Push back
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update documents for ${{ matrix.repo }}"
+          git push
 
   build:
     needs: update
