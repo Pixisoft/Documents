@@ -37,7 +37,7 @@ jobs:
           path: _temp
           lfs: true
 
-      - name: Grab documents from Pixisoft/${{ matrix.repo }}
+      - name: Update documents for Pixisoft/${{ matrix.repo }}
         continue-on-error: true
         run: |
           cp -rf _temp/README.md docs/UnityAS/${{ matrix.repo }}/README.md
