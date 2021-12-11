@@ -5,15 +5,14 @@
 > Afterimage VFX for Unity
 
 [![License](https://github.com/Pixisoft/Afterimage/actions/workflows/license.yml/badge.svg)](https://github.com/Pixisoft/Afterimage/actions/workflows/license.yml)
+[![Source ⚙️](https://github.com/Pixisoft/Afterimage/actions/workflows/source_build.yml/badge.svg)](https://github.com/Pixisoft/Afterimage/actions/workflows/source_build.yml)
+[![Source 📦](https://github.com/Pixisoft/Afterimage/actions/workflows/source_package.yml/badge.svg)](https://github.com/Pixisoft/Afterimage/actions/workflows/source_package.yml)
 
 | Cube                               | UI                                 | Butterfly                          |
 |:-----------------------------------|:-----------------------------------|:-----------------------------------|
 | <img src="./etc/showcase_1.png" /> | <img src="./etc/showcase_2.png" /> | <img src="./etc/showcase_3.png" /> |
 
 ## 📁 Project Structures
-
-> [![Source ⚙️](https://github.com/Pixisoft/Afterimage/actions/workflows/source_build.yml/badge.svg)](https://github.com/Pixisoft/Afterimage/actions/workflows/source_build.yml)
-> [![Source 📦](https://github.com/Pixisoft/Afterimage/actions/workflows/source_package.yml/badge.svg)](https://github.com/Pixisoft/Afterimage/actions/workflows/source_package.yml)
 
 * `Source` - Project contains plugin's source code.
 
