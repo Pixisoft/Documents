@@ -23,6 +23,7 @@ jobs:
           cp -rf ${{ env.GITHUB_WORKSPACE }}/Afterimage/README.md docs/UnityAS/Afterimage/README.md
 
   build:
+    needs: update
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
