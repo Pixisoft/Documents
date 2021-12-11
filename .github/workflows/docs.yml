@@ -6,6 +6,21 @@ on:
       - master
 
 jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone all repo
+        uses: actions/checkout@v2
+        with:
+          repository: 'Pixisoft/Afterimage'
+
+      - name: Checkout self
+        uses: actions/checkout@v2
+
+      - name: Grab all documents
+        run: |
+          cp -rf ${{ env.GITHUB_WORKSPACE }}/Afterimage/README.md docs/UnityAS/Afterimage/README.md
+
   build:
     runs-on: ubuntu-latest
     steps:
