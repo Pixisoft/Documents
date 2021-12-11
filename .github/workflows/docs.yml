@@ -8,6 +8,10 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo:
+          - Afterimage
     steps:
       - name: Checkout self
         uses: actions/checkout@v2
@@ -15,9 +19,9 @@ jobs:
       - name: Clone all repo
         uses: actions/checkout@v2
         with:
-          repository: Pixisoft/Afterimage
+          repository: Pixisoft/${{ matrix.repo }}
           token: ${{ secrets.ACCESS_TOKEN }}
-          path: Afterimage
+          path: _temp
           lfs: true
 
       - name: Tree
@@ -25,7 +29,7 @@ jobs:
 
       - name: Grab all documents
         run: |
-          cp -rf ${{ env.GITHUB_WORKSPACE }}/Afterimage/README.md docs/UnityAS/Afterimage/README.md
+          cp -rf _temp/README.md docs/UnityAS/${{ matrix.repo }}/README.md
 
   build:
     needs: update
