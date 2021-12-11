@@ -16,7 +16,7 @@ jobs:
       - name: Checkout self
         uses: actions/checkout@v2
 
-      - name: Clone all repo
+      - name: Clone ${{ matrix.repo }}
         uses: actions/checkout@v2
         with:
           repository: Pixisoft/${{ matrix.repo }}
@@ -24,12 +24,11 @@ jobs:
           path: _temp
           lfs: true
 
-      - name: Tree
-        run: cd ${{ env.GITHUB_WORKSPACE }} && tree
-
-      - name: Grab all documents
+      - name: Grab README from Pixisoft/${{ matrix.repo }}
+        continue-on-error: true
         run: |
           cp -rf _temp/README.md docs/UnityAS/${{ matrix.repo }}/README.md
+          cp -rf _temp/etc/ docs/UnityAS/${{ matrix.repo }}/etc/
 
   build:
     needs: update
