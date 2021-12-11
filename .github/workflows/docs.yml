@@ -24,7 +24,7 @@ jobs:
 
       - name: Grab all documents
         run: |
-          cp -rf ${{ env.GITHUB_WORKSPACE }}/Afterimage/README.md docs/UnityAS/Afterimage/README.md
+          cp -rf ${{ env.GITHUB_WORKSPACE }}/Afterimage/Afterimage/README.md docs/UnityAS/Afterimage/README.md
 
   build:
     needs: update
