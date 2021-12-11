@@ -9,22 +9,23 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout self
+        uses: actions/checkout@v2
+
       - name: Clone all repo
         uses: actions/checkout@v2
         with:
           repository: Pixisoft/Afterimage
           token: ${{ secrets.ACCESS_TOKEN }}
+          path: Afterimage
           lfs: true
-
-      - name: Checkout self
-        uses: actions/checkout@v2
 
       - name: Tree
         run: cd ${{ env.GITHUB_WORKSPACE }} && tree
 
       - name: Grab all documents
         run: |
-          cp -rf ${{ env.GITHUB_WORKSPACE }}/Afterimage/Afterimage/README.md docs/UnityAS/Afterimage/README.md
+          cp -rf ${{ env.GITHUB_WORKSPACE }}/Afterimage/README.md docs/UnityAS/Afterimage/README.md
 
   build:
     needs: update
