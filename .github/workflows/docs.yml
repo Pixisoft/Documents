@@ -19,6 +19,9 @@ jobs:
       - name: Checkout self
         uses: actions/checkout@v2
 
+      - name: Tree
+        run: tree
+
       - name: Grab all documents
         run: |
           cp -rf ${{ env.GITHUB_WORKSPACE }}/Afterimage/README.md docs/UnityAS/Afterimage/README.md
