@@ -12,6 +12,15 @@ jobs:
       matrix:
         repo:
           - Afterimage
+          - Inspect_Html
+          - Inspect_Ini
+          - Inspect_Json
+          - Inspect_Xml
+          - Inspect_Yaml
+          - NovBundle
+          - PackageExporter
+          - sHierarchy
+          - WatchLog
     steps:
       - name: Checkout self
         uses: actions/checkout@v2
