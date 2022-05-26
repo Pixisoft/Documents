@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Overview - PackageExporter</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../Overview/index.html" class="active"><strong aria-hidden="true">1.</strong> Overview</a></li><li class="chapter-item expanded "><a href="../License/index.html"><strong aria-hidden="true">2.</strong> License</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">PackageExporter</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><a href="https://github.com/Pixisoft/NovBundle/blob/master/COPYING"><img src="https://img.shields.io/badge/License-Private-green.svg" alt="License: Private" /></a>
+<a href="https://unity3d.com/get-unity/download/archive"><img src="https://img.shields.io/badge/unity-2021.2.0f1-black.svg?style=flat&amp;logo=unity&amp;cacheSeconds=2592000" alt="Unity Engine" /></a></p>
+<h1 id="novbundle"><a class="header" href="#novbundle">NovBundle</a></h1>
+<p><a href="https://github.com/Pixisoft/NovBundle/actions/workflows/license.yml"><img src="https://github.com/Pixisoft/NovBundle/actions/workflows/license.yml/badge.svg" alt="License" /></a>
+<a href="https://github.com/Pixisoft/NovBundle/actions/workflows/source_build.yml"><img src="https://github.com/Pixisoft/NovBundle/actions/workflows/source_build.yml/badge.svg" alt="Source ⚙️" /></a>
+<a href="https://github.com/Pixisoft/NovBundle/actions/workflows/source_package.yml"><img src="https://github.com/Pixisoft/NovBundle/actions/workflows/source_package.yml/badge.svg" alt="Source 📦" /></a>
+<a href="https://github.com/Pixisoft/NovBundle/actions/workflows/publish_build.yml"><img src="https://github.com/Pixisoft/NovBundle/actions/workflows/publish_build.yml/badge.svg" alt="Publish ⚙️" /></a>
+<a href="https://github.com/Pixisoft/NovBundle/actions/workflows/publish_package.yml"><img src="https://github.com/Pixisoft/NovBundle/actions/workflows/publish_package.yml/badge.svg" alt="Publish 📦" /></a></p>
+<p><strong>NovBundle</strong> is a abstraction layer built on top of Asset Bundles system from
+Unity Engine. This plugin focuses on simplifying the Asset Bundles workflow so
+the user would not have to know too much details about the system itself.</p>
+<h2 id="-rationale"><a class="header" href="#-rationale">✒️ Rationale</a></h2>
+<p>This proprietary software is made when I worked under <a href="https://www.novaby.com/">NOVABY</a>,
+in order to attempt to resolve certain issues from the upstream <a href="https://docs.unity3d.com/Manual/AssetBundlesIntro.html">Asset Bundles</a>
+system. Thankfully, they have granted us permission to release this tool and
+sell it to the public on <strong><code>Aug 29, 2021</code></strong>, so here's a big thank you to them! ♥️</p>
+<h2 id="-how-to-use"><a class="header" href="#-how-to-use">🔨 How to use?</a></h2>
+<p>There are major three parts for you to master this package. Three parts including
+<code>Creation</code>, <code>Upload</code>, <code>Call API</code>. The following instructions would help you get
+through the basic usage of each parts.</p>
+<h3 id="-how-to-create-asset-bundles"><a class="header" href="#-how-to-create-asset-bundles">🔍 How to create Asset Bundles?</a></h3>
+<h4 id="1-create-asset-bundle"><a class="header" href="#1-create-asset-bundle">1. Create Asset Bundle</a></h4>
+<p>Asset Bundles are generated by platforms, hence you would have multiple folders
+organized by platforms. First select a asset from the <code>Project</code> window then
+create a new Asset Bundle under the <code>Inspector</code> window.</p>
+<p><img src="./etc/new_ab.png" alt="New Asset Bundles" /></p>
+<p><em>P.S. Here we created a asset bundle named <code>_bundle_1</code></em></p>
+<h4 id="2-build-asset-bundle-for-target-platform"><a class="header" href="#2-build-asset-bundle-for-target-platform">2. Build Asset Bundle for target platform</a></h4>
+<p>Then navigate to your menu bar <strong>NovBundle</strong> -&gt; <strong>Build</strong> -&gt; <strong>Target Platform</strong>,
+you should be prompt to select your output path. The following is what the
+outputted result should look like.</p>
+<p><img src="./etc/ab_output.png" alt="Output Asset Bundles" /></p>
+<p><em>P.S. You can export multiple platform but make sure you have organized in platform folder</em></p>
+<h3 id="-upload-to-server"><a class="header" href="#-upload-to-server">🔍 Upload to server</a></h3>
+<h4 id="1-upload-asset-bundles-files"><a class="header" href="#1-upload-asset-bundles-files">1. Upload Asset Bundles files</a></h4>
+<p>In order to use these files, we need to upload our exported files to a server.
+You can use FTP client like <a href="https://filezilla-project.org/">FileZilla</a> or
+other alternatives to do so.</p>
+<h4 id="2-upload-versiontxt-file"><a class="header" href="#2-upload-versiontxt-file">2. Upload <code>version.txt</code> file</a></h4>
+<p>You would need to create a text file for Asset Bundles caching system. Here I
+have created a text file name <code>version.text</code> with the content of <code>1</code>.</p>
+<p>The text file content,</p>
+<pre><code>1
+</code></pre>
+<p><em>P.S. Make sure the number should only be an unsign integer, hence should not
+be number lower than 0!</em></p>
+<p><img src="./etc/ftp_view.png" alt="FTP Client View" /></p>
+<h3 id="-download-and-use-the-asset-from-the-bundle"><a class="header" href="#-download-and-use-the-asset-from-the-bundle">🔍 Download and use the Asset from the bundle</a></h3>
+<h4 id="1-attach-component-bundledownloader"><a class="header" href="#1-attach-component-bundledownloader">1. Attach component <code>BundleDownloader</code></a></h4>
+<p>Drag and drop the script <code>BundleDownloader</code> to any GameObject in the scene, so
+it would start function. Make sure you fill in the variable <code>Bundle URL</code> with
+your Asset Bundles url.</p>
+<p><img src="./etc/comp_view.png" alt="Component View" /></p>
+<p><em>For more information, see section <a href="#pencil-testing">Testing</a>.</em></p>
+<h4 id="2-access-asset-from-script"><a class="header" href="#2-access-asset-from-script">2. Access asset from script</a></h4>
+<p>Once you have done the above instructions, you are ready to use the asset
+from your Assets Bundle. The following code is a simple example for you to use
+the asset from the asset bundle you have created.</p>
+<pre><code class="language-cs">using NovBundle;
+
+...
+
+BundleDownloader bundleDownloader = ...;  // Assign bundle downloader here!
+
+bundleDownloader.BundleAsset(
+    &quot;_bundle_1&quot;,  // Name of the bundle
+    &quot;assets/_project/prefabs/sphere.prefab&quot;, (asset) =&gt;  // Target asset, and callback
+{
+    // Instantiate the prefab to scene
+    Instantiate(asset, new Vector3(10, 0, 10), Quaternion.identity);
+});
+</code></pre>
+<p><em>🎉 Done!</em></p>
+<h2 id="-uploader-sftp"><a class="header" href="#-uploader-sftp">💾 Uploader (SFTP)</a></h2>
+<p>After version <code>0.2.1</code>, you can now upload the asset bundles over the graphical
+user interface by using <strong>NovBundle</strong> -&gt; <strong>Upload</strong> window.</p>
+<p><img src="./etc/uploader.png" alt="Uploader" /></p>
+<h2 id="-batch-mode"><a class="header" href="#-batch-mode">🖥️ Batch Mode</a></h2>
+<p>You can build Asset Bundles by using Unity's batch mode.</p>
+<table><thead><tr><th style="text-align: left">Method</th><th style="text-align: left">Arguments</th><th style="text-align: left">Details</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>NovBundle.BatchMode.BuildBundle</code></td><td style="text-align: left"><code>_platform</code>, <code>_savePath</code></td><td style="text-align: left">Build target asset bundles to save path.</td></tr>
+<tr><td style="text-align: left"><code>NovBundle.BatchMode.Upload</code></td><td style="text-align: left"><code>_platform</code>, <code>_savePath</code>, <code>_host</code>, <code>_port</code>, <code>_username</code>, <code>_password</code>, <code>_privateKey</code>, <code>_passphrase</code>, <code>_workingPath</code>, <code>_versionFile</code>, <code>_version</code></td><td style="text-align: left">Upload the asset bundles to the server through SFTP.</td></tr>
+</tbody></table>
+<table><thead><tr><th style="text-align: left">Command</th><th style="text-align: center">Optional</th><th style="text-align: left">Details</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>_platform</code></td><td style="text-align: center">❌</td><td style="text-align: left">Platform asset bundles to build.</td></tr>
+<tr><td style="text-align: left"><code>_savePath</code></td><td style="text-align: center">❌</td><td style="text-align: left">Where to save the asset bundles.</td></tr>
+<tr><td style="text-align: left"><code>_host</code></td><td style="text-align: center">❌</td><td style="text-align: left">Host name for SFTP.</td></tr>
+<tr><td style="text-align: left"><code>_port </code></td><td style="text-align: center">✔</td><td style="text-align: left">Optional port number. (Default to 22)</td></tr>
+<tr><td style="text-align: left"><code>_username</code></td><td style="text-align: center">❌</td><td style="text-align: left">Username for login.</td></tr>
+<tr><td style="text-align: left"><code>_password</code></td><td style="text-align: center">❌</td><td style="text-align: left">Password for login.</td></tr>
+<tr><td style="text-align: left"><code>_privateKey</code></td><td style="text-align: center">❌</td><td style="text-align: left">Path points to your private key.</td></tr>
+<tr><td style="text-align: left"><code>_passphrase</code></td><td style="text-align: center">✔</td><td style="text-align: left">Passphrase for your private key.</td></tr>
+<tr><td style="text-align: left"><code>_workingPath</code></td><td style="text-align: center">❌</td><td style="text-align: left">Target path from your server.</td></tr>
+<tr><td style="text-align: left"><code>_versionFile</code></td><td style="text-align: center">✔</td><td style="text-align: left">Version text file. (Default to <code>version.txt</code>)</td></tr>
+<tr><td style="text-align: left"><code>_version</code></td><td style="text-align: center">✔</td><td style="text-align: left">Version number apply to version text file. (Default to <code>1</code>)</td></tr>
+</tbody></table>
+<p>For example,</p>
+<pre><code>$UNITY_PATH -batchmode -quit -projectPath &quot;.&quot; -executeMethod NovBundle.BatchMode.BuildBundle _platform &quot;Windows&quot; _savePath &quot;.&quot;
+</code></pre>
+<p>The <code>$UNITY_PATH</code> is the path to Unity executable hence it depends on variant OS.</p>
+<p>On macOS,</p>
+<pre><code>/Applications/Unity/Unity.app/Contents/MacOS/Unity
+</code></pre>
+<p>On Windows,</p>
+<pre><code>&quot;C:\Program Files\Unity\Editor\Unity.exe&quot;
+</code></pre>
+<p>For more information, see <a href="https://docs.unity3d.com/Manual/CommandLineArguments.html">Command line arguments</a>.</p>
+<h2 id="-testing"><a class="header" href="#-testing">📝 Testing</a></h2>
+<h4 id="methods-1-test-it-on-your-server"><a class="header" href="#methods-1-test-it-on-your-server">Methods 1. Test it on your server</a></h4>
+<p>For exampl,e <code>http://www.yourwebsite.com/example/scenes.assetbundle</code></p>
+<h4 id="methods-2-test-it-with-file-url"><a class="header" href="#methods-2-test-it-with-file-url">Methods 2. Test it with file url</a></h4>
+<p>For exampl,e <code>file://C:/example/scenes.assetbundle</code></p>
+<h2 id="-references"><a class="header" href="#-references">🔗 References</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=twzfpuaM-Js&amp;ab_channel=ThirdAurora">ARFoundation Unity Tutorial: Asset Bundles (Download 3D Models At Runtime)</a></li>
+<li><a href="https://dev.twsiyuan.com/2017/04/unity-assetbundles.html">在 Unity 使用 AssetBundles 實作簡易的遊戲資源打包以及更新機制</a></li>
+<li><a href="https://www.youtube.com/watch?v=XIHINtB2e1U&amp;t=104s&amp;ab_channel=Unity">Packaging content with Addressable Assets | Open Projects Devlog</a></li>
+<li><a href="https://www.youtube.com/watch?v=aSumpv7Y7FE&amp;ab_channel=Badgerdox">All about AssetReferences</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="next" href="../License/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="next" href="../License/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
