@@ -1,7 +1,8 @@
 <p align="center">
   <img src="./etc/logo.png" />
   <p align="center">
-  <a href="#"><img alt="License: Private" src="https://img.shields.io/badge/License-Private-green.svg"/></a>
+  <a href="#"><img alt="License" src="https://img.shields.io/badge/License-Private-green.svg"/></a>
+  <a href="https://github.com/Pixisoft/Documents/actions/workflows/docs.yml"><img alt="Docs" src="https://github.com/Pixisoft/Documents/actions/workflows/docs.yml/badge.svg"/></a>
   </p>
 </p>
 
