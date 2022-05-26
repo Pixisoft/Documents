@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Chapter 1 - PackageExporter</title>
+        <title>Overview - PackageExporter</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="Overview/index.html"><strong aria-hidden="true">1.</strong> Overview</a></li><li class="chapter-item expanded "><a href="FAQ/index.html"><strong aria-hidden="true">2.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="License/index.html"><strong aria-hidden="true">3.</strong> License</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -134,18 +134,108 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="chapter-1"><a class="header" href="#chapter-1">Chapter 1</a></h1>
+                        <h1 id="package-exporter"><a class="header" href="#package-exporter">Package Exporter</a></h1>
+<p>Export multiple packages by just one click, with no need to uncheck the assets.</p>
+<p align="center">
+  <img src="./etc/package-manage.png"/>
+</p>
+<p>This package is a packaging (exporting) tool for Unity package system. It
+allows you to export multiple packages with different contents.</p>
+<p><em>P.S. Notice this package will only work in Editor, and does not expect user
+to use it in production builds.</em></p>
+<h2 id="-features"><a class="header" href="#-features">🏆 Features</a></h2>
+<ul>
+<li>Export multiple packages in a project</li>
+<li>Export method similar to <code>.gitignore</code> (easy for coder)</li>
+<li>Lightweight, no other dependencies</li>
+<li>Clean, no files are generated</li>
+<li>Highly compatible to any Unity version</li>
+</ul>
+<h2 id="-how-to-use"><a class="header" href="#-how-to-use">🔨 How to use?</a></h2>
+<p>Here explains how you use this package correctly.</p>
+<h3 id="-step-1-import-package"><a class="header" href="#-step-1-import-package">🔍 Step 1. Import Package</a></h3>
+<p>You will need to import the package to your project. The package
+can be download from <a href="https://github.com/Pixisoft/PackageExporter/releases">here</a>.</p>
+<h3 id="-step-2-start-using-package-exporter-window"><a class="header" href="#-step-2-start-using-package-exporter-window">🔍 Step 2. Start using Package Exporter Window</a></h3>
+<p>You can start the <code>PackageExporter</code> window from the menu bar <code>PackageExporter</code>.</p>
+<h3 id="-step-3-fill-package-info-and-generate-unityignore-file"><a class="header" href="#-step-3-fill-package-info-and-generate-unityignore-file">🔍 Step 3. Fill package info and generate <code>.unityignore</code> file</a></h3>
+<img src="./etc/package-info.png"/>
+<p>After you fill the info, then hit <code>Generate Unity Ignore</code> button.</p>
+<h3 id="-step-4-edit-unityignore-file"><a class="header" href="#-step-4-edit-unityignore-file">🔍 Step 4. Edit <code>.unityignore</code> file</a></h3>
+<p>All the <code>.unityignore</code> files can be found under <code>PackageExporter/unityignore</code>
+directory.</p>
+<h3 id="-step-5-export"><a class="header" href="#-step-5-export">🔍 Step 5. Export...</a></h3>
+<p>Once the <code>.unityignore</code> file is generated, the according package
+export button should appear.</p>
+<h3 id="-done-and-enjoy-"><a class="header" href="#-done-and-enjoy-">🎉 Done, and Enjoy! 🥳</a></h3>
+<p>Now you can manage as many packages you want to export! 🎉</p>
+<h2 id="unityignore-file-example"><a class="header" href="#unityignore-file-example"><code>.unityignore</code> File Example</a></h2>
+<p>Generated <code>.unityignore</code> file for <code>Hello World</code> package.</p>
+<pre><code>#
+# Thank you for using `Package Exporter`. This is the generated
+# unityignore file.
+#
+# Package Name: Hello World
+# Version: 1.0.0
+# Creation Date: 2017-10-25 06:58:14
+#
+# Package Link: https://github.com/Pixisoft/PackageExporter
+# Author: Shen, Jen-Chieh
+# Email: pixisoft.tw@gmail.com
+#
+
+# Ignore this plugin itself.
+ProjectExporter
+
+</code></pre>
+<h2 id="-exporting"><a class="header" href="#-exporting">🚀 Exporting</a></h2>
+<p>Export the package <code>Hello World</code>.</p>
+<p>
+  <img src="./etc/export-package.gif"/>
+</p>
+<h2 id="-batch-mode"><a class="header" href="#-batch-mode">🖥️ Batch Mode</a></h2>
+<p>You can export package by using Unity's batch mode.</p>
+<table><thead><tr><th style="text-align: left">Method</th><th style="text-align: left">Arguments</th><th style="text-align: left">Details</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>PackageExporter.BatchMode.Export</code></td><td style="text-align: left"><code>_name</code>, <code>_version</code>, <code>_savePath</code></td><td style="text-align: left">Export package by unityignore name.</td></tr>
+</tbody></table>
+<table><thead><tr><th style="text-align: left">Command</th><th style="text-align: center">Optional</th><th style="text-align: left">Details</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>_name</code></td><td style="text-align: center">❌</td><td style="text-align: left">Name of the exported package listed under unityignore directory.</td></tr>
+<tr><td style="text-align: left"><code>_version</code></td><td style="text-align: center">❌</td><td style="text-align: left">Version of the exported package.</td></tr>
+<tr><td style="text-align: left"><code>_savePath</code></td><td style="text-align: center">❌</td><td style="text-align: left">Where to save the exported package.</td></tr>
+</tbody></table>
+<p>For example,</p>
+<pre><code>$UNITY_PATH -batchmode -quit -projectPath &quot;.&quot; -executeMethod PackageExporter.BatchMode.Export _name &quot;Hello World&quot; _version &quot;0.1.0&quot; _savePath &quot;.&quot;
+</code></pre>
+<p>The <code>$UNITY_PATH</code> is the path to Unity executable hence it depends on variant OS.</p>
+<p>On macOS,</p>
+<pre><code>/Applications/Unity/Unity.app/Contents/MacOS/Unity
+</code></pre>
+<p>On Windows,</p>
+<pre><code>&quot;C:\Program Files\Unity\Editor\Unity.exe&quot;
+</code></pre>
+<p>For more information, see <a href="https://docs.unity3d.com/Manual/CommandLineArguments.html">Command line arguments</a>.</p>
+<h2 id="-todo-list"><a class="header" href="#-todo-list">📝 Todo List</a></h2>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Support ingore extension syntax. (*.meta)</li>
+</ul>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="next" href="FAQ/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="next" href="FAQ/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
