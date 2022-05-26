@@ -24,7 +24,9 @@ jobs:
         mdbook-version: 'latest'
 
     - name: Copy content
-      run: cp README.md ./docs/src/
+      run: |
+        cp ./etc/ ./docs/src/etc/
+        cp README.md ./docs/src/
 
     - name: Build doc
       working-directory: docs
