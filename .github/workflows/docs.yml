@@ -25,7 +25,7 @@ jobs:
 
     - name: Copy content
       run: |
-        cp ./etc/ ./docs/src/etc/
+        cp -r ./etc/ ./docs/src/etc/
         cp README.md ./docs/src/
 
     - name: Build doc
