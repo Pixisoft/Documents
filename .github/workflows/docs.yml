@@ -23,11 +23,6 @@ jobs:
       with:
         mdbook-version: 'latest'
 
-    - name: Copy content
-      run: |
-        cp -r ./etc/ ./docs/src/etc/
-        cp README.md ./docs/src/
-
     - name: Build doc
       working-directory: docs
       run: mdbook build
@@ -46,7 +41,9 @@ jobs:
 
     - name: Move book to repository
       run: |
-        mv -f ~/book/* ./
+        rm -rf ${{ github.event.repository.name }}
+        mkdir ${{ github.event.repository.name }}
+        mv -f ~/book/* ./${{ github.event.repository.name }}/
 
     - name: Set git config
       run: |
