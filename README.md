@@ -10,6 +10,10 @@
 
 Document is built using [mdBook](https://github.com/rust-lang/mdBook).
 
+## 🔗 References
+
+* [mdBook使用](https://zhuanlan.zhihu.com/p/126202965)
+
 ## License
 
 Copyright (c) Pixisoft. All rights reserved.
